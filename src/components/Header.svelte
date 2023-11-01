@@ -1,14 +1,18 @@
 <script>
   import Logo from "../reusable/Logo.svelte";
-  import MobileNav from "./MobileNav.svelte";
-  import Navigation from "./Navigation.svelte";
+  import DesktopNavigation from "./DesktopNavigation.svelte";
+
 
 </script>
 
 <header class="header">
   <Logo on:goToHome />
-  <Navigation on:changeComponent on:goTo/>
-  <!-- <MobileNav /> -->
+  <div class="header-nav">
+    <DesktopNavigation on:changeComponent on:goTo/>
+    <button class="btn-mobile-nav" on:click>
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+    </button>
+  </div>
 </header>
 
 <style>
@@ -22,20 +26,33 @@
     padding: 0 4.8rem;
   }
 
+  .header-nav {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+  }
+
+  .btn-mobile-nav{
+    border: none;
+    background-color: darkblue;
+    cursor: pointer;
+
+    display: none;
+  }
+
+  .icon-mobile-nav{
+    height: 3.2rem;
+    width: 3.2rem;
+    color: #fff;
+}
 
 
 /*******************************************/
 /* MOBILE NAVIGATION BELOW 944px (Tablets)*/
 /******************************************/
-/* @media (max-width: 59em) {
-  .header {
-    width: 100%;
-    height: 100vh; 
-    align-items: flex-start;
-    padding: 2.4rem ;
-    
+@media (max-width: 59em) {
+  .btn-mobile-nav {
+    display: block;
   }
-}  */
-
-
+}  
 </style>
