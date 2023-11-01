@@ -1,0 +1,78 @@
+/*
+
+--FONT WEIGHTS:
+  Default: 400
+  Medium: 500
+  Semi-bold: 600
+  Bold: 700
+
+--LINE HEIGHTS:
+Default: 1
+Small: 1.05
+Paragraph default: 1.6
+  
+--COLOURS:
+- Primary: darkblue;
+- Tints:  rgb(179, 179, 220, 0.9);
+- Shades: #e6c200;
+- Accents: gold;
+- Greys: #333;
+
+-BORDER-RADIUS:
+Default: 6px;
+Medium: 9px;
+
+
+-SPACING SYSTEM (px)
+2 / 4 /8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  line-height: 1;
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+}
+
+/* Reusable Classes */
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
