@@ -3,11 +3,10 @@
   import Button from "../reusable/Button.svelte";
 
   export let showMobileNav = false;
-
-
   
   let items = ['Home', 'About', 'Our Services', 'Gallery', 'Contact'];
   let activeItem = 'Home';
+  let column = true;
   
 
 const tabChange = (e) => {
@@ -28,7 +27,7 @@ const clearActiveItem = () => {
     </div>   
 
     <div class="mobile-nav-links">
-      <Tabs {items} {activeItem} on:tabChange={tabChange} on:changeComponent /> <!--Please specify if column={true} in @media max-width=59em -->
+      <Tabs {items} {activeItem} {column} on:tabChange={tabChange} on:changeComponent />
       <div class="main-nav-btn">
         <Button bigger={true} on:goTo on:click={clearActiveItem}>Book Now</Button>
       </div>

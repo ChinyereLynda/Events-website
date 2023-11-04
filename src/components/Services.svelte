@@ -5,18 +5,11 @@ import Events from './Events.svelte';
 
 let items = ['Events', 'Cleaning Services', 'Monumental Moments'];
 let activeItem = 'Events';
-const color = '#fff';
-const background = 'darkblue';
-const gap = '0';
-const border = '#fff solid 1px';
-const padding = '0.4rem 1.2rem';
-const borderRadius = '6px';
+let services = true;
 
 const tabChange = (e) => {
 	activeItem = e.detail;  
 }
-
-
 </script>
 
 <section class="section-services">
@@ -31,7 +24,7 @@ const tabChange = (e) => {
       </div>
   </div>
   <div class="services-tabs">
-    <Tabs {borderRadius} {border} {padding} {gap} {color} {background} {items} {activeItem} on:tabChange={tabChange}/>
+    <Tabs {items} {activeItem} {services} on:tabChange={tabChange}/>
     
     {#if activeItem === 'Events'}
       <Events />

@@ -16,7 +16,14 @@ Paragraph default: 1.6
 - Tints:  rgb(179, 179, 220, 0.9);
 - Shades: #e6c200;
 - Accents: gold;
-- Greys: #333;
+- Greys: 
+#333 
+#555
+#6f6f6f (lightest grey allowed on #fdf2e9;
+#767676 (lightest grey allowed on #fff;
+
+SHADOWS:
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
 -BORDER-RADIUS:
 Default: 6px;

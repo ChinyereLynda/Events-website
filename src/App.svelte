@@ -4,6 +4,9 @@ import Header from  "./components/Header.svelte";
 import About from "./components/About.svelte";
 import Services from "./components/Services.svelte";
 import MobileNavView from "./components/MobileNavView.svelte";
+import Footer from "./components/Footer.svelte";
+import Gallery from "./components/Gallery.svelte";
+import Contact from "./components/Contact.svelte";
 
 let showMobileNav = false;
 const toggleMobilNavView = () => {
@@ -15,10 +18,15 @@ let activeComponent = 'Home';
 
 const changeComponent = (e) => {
 	activeComponent = e.detail;
+	if (showMobileNav == true) 
+	showMobileNav = !showMobileNav;
+
 }
 
-const contactComponent = () => {
+const contactComponent = () => {	
 	activeComponent = 'Contact';
+	if (showMobileNav == true) 
+	showMobileNav = !showMobileNav;
 }
 
 const goToHome = () => {
@@ -26,7 +34,7 @@ const goToHome = () => {
 }
 </script>
 
-<MobileNavView {showMobileNav} on:click={toggleMobilNavView}/>
+<MobileNavView on:changeComponent={changeComponent} on:goTo={contactComponent} {showMobileNav} on:click={toggleMobilNavView}/>
 
 <Header on:changeComponent={changeComponent} on:goTo={contactComponent} on:goToHome={goToHome} on:click={toggleMobilNavView}/>
 <main>
@@ -37,11 +45,15 @@ const goToHome = () => {
 			{:else if activeComponent === 'Our Services'}
 			<Services />
 			{:else if activeComponent === 'Gallery'}
-				<p>Gallery Component Goes Here</p>
+			<Gallery />
 			{:else if activeComponent === 'Contact'}
-				<p>Contact Component Goes Here</p>
+			<Contact />
 			{/if}
 </main>
+
+<Footer />
+
+
 
 <style>
 	/* @media (min-width: 640px) {

@@ -21,6 +21,11 @@
     </div> -->
 
 <style>
+  .section-about  {
+    margin-bottom: 9.6rem;
+
+  }
+
   .about-container {
     margin: 0 auto;
     position: relative;

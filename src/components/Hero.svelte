@@ -25,6 +25,10 @@
 </section>
 
 <style>
+  .section-hero  {
+    margin-bottom: 9.6rem;
+  }
+
   .hero-container {
     /* max-width: 130rem; */
     margin: 0 auto;

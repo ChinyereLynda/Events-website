@@ -15,7 +15,7 @@ const clearActiveItem = () => {
 </script>
 
 <nav class="main-nav">
-    <Tabs {items} {activeItem} on:tabChange={tabChange} on:changeComponent /> <!--Please specify if column={true} in @media max-width=59em -->
+    <Tabs {items} {activeItem} on:tabChange={tabChange} on:changeComponent /> 
     <div class="main-nav-btn">
       <Button bigger={true} on:goTo on:click={clearActiveItem}>Book Now</Button>
     </div>    
@@ -27,7 +27,6 @@ const clearActiveItem = () => {
     align-items: center;
     gap: 3.2rem;
   }
-
   
 
 /*******************************************/
@@ -37,13 +36,6 @@ const clearActiveItem = () => {
   .main-nav {
     display: none;
   }
-  /*
-
-  .links-nav {
-    flex-direction: column;
-    gap: 4.8rem;
-  }  
-  */
 }
 
 
