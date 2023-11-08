@@ -7,12 +7,15 @@ import MobileNavView from "./components/MobileNavView.svelte";
 import Footer from "./components/Footer.svelte";
 import Gallery from "./components/Gallery.svelte";
 import Contact from "./components/Contact.svelte";
+import Cta from "./components/Cta.svelte";
+import Testimonial from "./components/Testimonial.svelte";
 
 let showMobileNav = false;
 const toggleMobilNavView = () => {
 	showMobileNav = !showMobileNav;
 }
 
+let items = ['Home', 'About', 'Our Services', 'Gallery', 'Contact'];
 let activeComponent = 'Home';
 
 
@@ -50,7 +53,8 @@ const goToHome = () => {
 			<Contact />
 			{/if}
 </main>
-
+<Testimonial />
+<Cta on:ctaToContact={contactComponent} />
 <Footer />
 
 

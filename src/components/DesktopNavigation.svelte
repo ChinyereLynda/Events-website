@@ -7,6 +7,7 @@ let activeItem = 'Home';
 
 const tabChange = (e) => {
 	activeItem = e.detail;  
+  // if (!items.includes(e.detail)) {activeItem = ''}
 }
 
 const clearActiveItem = () => {

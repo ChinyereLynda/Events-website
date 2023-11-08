@@ -39,7 +39,7 @@
     max-width: 60rem;
     margin: 0 auto;
     background: rgb(179, 179, 220, 0.9);
-    color: darkblue;
+    color: #0C2D48;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -57,9 +57,9 @@
     height: 100vh;
   }
   
-  .btn-wrap {
-    text-align: center;
-  }
+  /* .btn-wrap {
+    text-align: right;
+  } */
 
   .client-box {
     display: flex;

@@ -110,7 +110,7 @@
 
   .events {
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-    border-radius: 9px;
+    border-radius: 11px;
     overflow: hidden;
     transition: all 0.4s;
   }

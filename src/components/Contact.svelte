@@ -1,5 +1,5 @@
 <script>
-
+import Form from "./Form.svelte";
 </script>
 
 <section class="section-contact">
@@ -13,6 +13,8 @@
         <img src="/img/image1.jpg" class="contact-img" alt="gallery image"/>
       </div>
   </div>
+  
+  <Form />
 </section>
 
 <style>
@@ -21,7 +23,7 @@
   }
 
   .contact-container {
-    margin: 0 auto;
+    margin: 0 auto 9.6rem;
     position: relative;
   }
   
@@ -47,4 +49,6 @@
     width: 100%;
     max-height: 60vh;
   }
+
+  
   </style>

@@ -11,9 +11,14 @@ const handleBtnClick = (e) => {
   dispatch('goTo', btn);
 }
 
+const ctaToContact = (e) => {
+  const btn = e.target;
+  dispatch('ctaToContact', btn);
+}
+
 </script>
 
-<button class={type} class:bigger={bigger} class:inverse={inverse} on:click={handleBtnClick} on:click>
+<button class={type} class:bigger={bigger} class:inverse={inverse} on:click={handleBtnClick} on:click={ctaToContact} on:click >
   <slot></slot>
 </button>
 
@@ -24,12 +29,12 @@ const handleBtnClick = (e) => {
     border-radius: 6px;
     padding: 0.8rem 1.2rem;
     font-weight: 600;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2)
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
   }
 
   .primary {
     background: gold;
-    color: darkblue;
+    color: #0C2D48;
     transition: all 0.3s;
   }
 
@@ -38,7 +43,7 @@ const handleBtnClick = (e) => {
   }
 
   .secondary {
-    background: darkblue;
+    background: #0C2D48;
     color: #fff;
   }
 

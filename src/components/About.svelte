@@ -15,11 +15,6 @@
   </div>
 </section>
 
-<!-- <div class="client-box">
-      <ClientLogos />
-      <p class="client-text">Super <span>memories</span> created for our clients! </p>
-    </div> -->
-
 <style>
   .section-about  {
     margin-bottom: 9.6rem;
@@ -54,21 +49,5 @@
     max-height: 60vh;
   }
   
-  /* .client-box {
-    display: flex;
-    align-items: center;
-    gap: 1.6rem;
-    margin-top: 8rem;
-  }
-
-  .client-text {
-    font-size: 1.8rem;
-    font-weight: 600;
-  }
-
-  .client-text span{
-    color: gold;
-    font-weight: 700;
-  } */
-
+  
 </style>

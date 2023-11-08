@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: darkblue;
+    background-color: #0C2D48;
     /* It will be sticky */
     height: 8rem;
     padding: 0 4.8rem;
