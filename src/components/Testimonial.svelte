@@ -1,13 +1,30 @@
 <script>
+  import CarouselTestimonial from "../reusable/CarouselTestimonial.svelte";
+
+  const testimonials = [
+		{author: 'Albert Eze', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Great job.', job: 'Senior Product Manager at EFG Company', id: 1},
+    {author: 'Kelvin Breeze', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Excellent', job: 'Manager at HIJ Company', id: 2},
+		{author: 'Brian Okwu', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Splendid', job: 'HR at KLM Company', id: 3},
+		{author: 'Elizabeth Maya', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Fantabulous', job: 'Project Coordinator at OPQ Company', id: 4},
+		{author: 'Drake Chew', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Nice one', job: 'Development Manager at RST Company', id: 5},
+	];
+
+  // const dots = ['dot1', 'dot2', 'dot3', 'dot4', 'dot5'];
 
 </script>
 
 <section class="section-testimonials">
   <h1 class="testimonial-heading heading-primary">From Our Clients...</h1>
+  <CarouselTestimonial {testimonials} />
 
 
+
+  
+  
+
+<!-- ****************************************************************************************************** -->
   <!-- {#each testimonials as testimonial} -->
-  <div class="testimonial-box">
+  <!-- <div class="testimonial-box">
     <img class="testimonial-img" src="/img/Testimonial1.jpg" alt="Testimonial Image" />
     <blockquote class="testimonial">
       <p class="testimonial-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Et excepturi nihil perferendis deserunt error! Nemo quisquam ipsa qui praesentium eaque. Cum assumenda placeat ipsam saepe eligendi quidem omnis rem illum."</p>
@@ -29,18 +46,18 @@
         <button class="dot">&nbsp;</button>
         <button class="dot">&nbsp;</button>        
       </div>
-  </div>
+  </div> -->
   <!-- {/each} -->
   
 </section>
 
-<style>
+ <style>
   .testimonial-heading {
     color: #333;
     text-align: center;
-
   }
 
+  /* 
   .testimonial-box {
     width: 80rem;
     margin: 9.6rem auto;
@@ -79,10 +96,10 @@
   .testimonial-job {
     font-size: 1.2rem;
     color: #ced5da;
-  }
+  }*/
 
   /* CONTROLS */
-  .btn {
+  /*.btn {
     background-color: #fff;
     border: none;
     height: 4rem;
@@ -137,5 +154,6 @@
   .dot--fill {
     background-color: #0C2D48;
   }
+  */
 
-</style>
+</style> 
