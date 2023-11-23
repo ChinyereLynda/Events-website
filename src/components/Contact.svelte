@@ -10,7 +10,7 @@ import Form from "./Form.svelte";
       </div>
 
       <div class="contact-img-box">
-        <img src="/img/image1.jpg" class="contact-img" alt="gallery image"/>
+        <img src="/img/image7.jpg" class="contact-img" alt="gallery image"/>
       </div>
   </div>
   

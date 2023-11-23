@@ -19,7 +19,7 @@
       </div>
 
     <div class="hero-img-box">
-      <img src="/img/image1.jpg" class="hero-img" alt="hero image"/>
+      <img src="/img/image7.jpg" class="hero-img" alt="hero image"/>
     </div>
   </div>
 </section>
@@ -53,6 +53,7 @@
   }
 
   .hero-img {
+    display: block;
     width: 100%;
     height: 100vh;
   }

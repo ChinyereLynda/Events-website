@@ -39,7 +39,6 @@
   .cta-text-box {
     display: grid;
     grid-template-columns: 4fr 1.5fr;
-
     align-items: center;
     gap: 9.6rem;
 

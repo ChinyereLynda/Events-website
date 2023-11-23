@@ -1,7 +1,8 @@
 <script>
-
 import Tabs from '../reusable/Tabs.svelte';
+import Cleaning from './Cleaning.svelte';
 import Events from './Events.svelte';
+import MonumentalMoments from './MonumentalMoments.svelte';
 
 let items = ['Events', 'Cleaning Services', 'Monumental Moments'];
 let activeItem = 'Events';
@@ -20,7 +21,7 @@ const tabChange = (e) => {
       </div>
 
       <div class="services-img-box">
-        <img src="/img/image1.jpg" class="services-img" alt="services image"/>
+        <img src="/img/image7.jpg" class="services-img" alt="services image"/>
       </div>
   </div>
   <div class="services-tabs">
@@ -29,9 +30,9 @@ const tabChange = (e) => {
     {#if activeItem === 'Events'}
       <Events />
 			{:else if activeItem === 'Cleaning Services'}
-			<p> Cleaning Services here!</p>
+      <Cleaning />
 			{:else if activeItem === 'Monumental Moments'}
-			<p>Monumental Moments here!</p>
+			<MonumentalMoments />
 		{/if}
 
   </div>

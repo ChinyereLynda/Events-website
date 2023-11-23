@@ -9,6 +9,7 @@ import Gallery from "./components/Gallery.svelte";
 import Contact from "./components/Contact.svelte";
 import Cta from "./components/Cta.svelte";
 import Testimonial from "./components/Testimonial.svelte";
+import CtaGallery from "./components/CtaGallery.svelte";
 
 let showMobileNav = false;
 const toggleMobilNavView = () => {
@@ -52,10 +53,16 @@ const goToHome = () => {
 			{:else if activeComponent === 'Contact'}
 			<Contact />
 			{/if}
+
+			{#if activeComponent !== 'Contact'}
+			<Testimonial />
+			<CtaGallery />
+			<Cta on:ctaToContact={contactComponent} />
+			{/if}
 </main>
-<Testimonial />
-<Cta on:ctaToContact={contactComponent} />
-<Footer />
+<!-- <Testimonial />
+<Cta on:ctaToContact={contactComponent} /> -->
+<Footer on:changeComponent={changeComponent} />
 
 
 

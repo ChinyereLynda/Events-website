@@ -13,7 +13,8 @@ Paragraph default: 1.6
   
 --COLOURS:
 - Primary: #0C2D48 darkblue;
-- Tints: #3d576d #13AEEC #42bef0 rgb(179, 179, 220, 0.9) #ced5da #e7eaed;
+- Secondary: #13AEEC
+- Tints: #3d576d #d0effb #42bef0 rgba(19, 174, 236, 0.8) rgb(179, 179, 220, 0.9) #ced5da #e7eaed;
 - Shades: #e6c200;
 - Accents: gold;
 - Greys: 
@@ -55,13 +56,14 @@ body {
 .container {
   /* 1140px */
   max-width: 120rem;
-  padding: 0 3.2rem;
+  padding: 0 2.4rem;
   margin: 0 auto;
 }
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
 }
 
 .grid--2-cols {
@@ -72,20 +74,29 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.heading-primary {
-  font-size: 5.2rem;
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
   font-weight: 700;
   line-height: 1.05;
   letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
   margin-bottom: 3.2rem;
 }
 
 .heading-secondary {
+  font-size: 4.8rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.heading-tertiary {
   font-size: 3.2rem;
-  font-weight: 600;
-  line-height: 1.05;
-  letter-spacing: -0.3px;
-  margin-bottom: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
 }
 
 .margin-bottom-md {

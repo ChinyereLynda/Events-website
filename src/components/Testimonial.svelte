@@ -9,18 +9,11 @@
 		{author: 'Drake Chew', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Nice one', job: 'Development Manager at RST Company', id: 5},
 	];
 
-  // const dots = ['dot1', 'dot2', 'dot3', 'dot4', 'dot5'];
-
 </script>
 
 <section class="section-testimonials">
-  <h1 class="testimonial-heading heading-primary">From Our Clients...</h1>
-  <CarouselTestimonial {testimonials} />
-
-
-
-  
-  
+  <h1 class="testimonial-heading heading-secondary">From Our Clients...</h1>
+  <CarouselTestimonial {testimonials} />  
 
 <!-- ****************************************************************************************************** -->
   <!-- {#each testimonials as testimonial} -->

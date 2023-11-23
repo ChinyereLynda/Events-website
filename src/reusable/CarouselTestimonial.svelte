@@ -1,6 +1,4 @@
-<script>
- 
-  import { flip } from "svelte/animate";
+<script> 
   export let testimonials;
 
   let curSlide = 0;
@@ -16,7 +14,7 @@
   
   const prevSlide = () => {
     if (curSlide === 0){
-      curSlide = testimonials.length - 1;
+      curSlide = maxSlide - 1;
     } else {
     curSlide--;
     }
@@ -42,31 +40,15 @@
     document.querySelectorAll('.dot').forEach(button => {
       button.classList.remove('dot--fill');
     });    
-    e.target.classList.add('dot--fill');
-    
-  }
-
-    
-  // const moveLeft = () => {
-  //   const passingTestimonial = testimonials[testimonials.length - 1];
-  //   document.getElementById(passingTestimonial.id).style.opacity = 0;
-  //   testimonials = [testimonials[testimonials.length - 1], ...testimonials.slice(0, testimonials.length - 1)];
-  //   setTimeout(() => (document.getElementById(passingTestimonial.id).style.opacity = 1), speed);
-  // };
-
-  // const moveRight = () => {
-  //   const passingTestimonial = testimonials[0]
-  //   document.getElementById(passingTestimonial.id).style.opacity = 0
-  //   testimonials = [...testimonials.slice(1, testimonials.length), testimonials[0]]
-  //   setTimeout(() => (document.getElementById(passingTestimonial.id).style.opacity = 1), speed)    
-  // };
+    e.target.classList.add('dot--fill');    
+  } 
 </script>
 
 <svelte:document on:keydown={handleKeyDown} /> 
 
   <div class="slider carousel-testimonials">
     {#each testimonials as testimonial, i (testimonial.id)}
-      <div class="testimonial-box" id={testimonial.id} bind:this={testimonial[i]} style="transform:translateX(calc(100% * {i} + 2.4rem * {i}))" animate:flip>
+      <div class="testimonial-box" id={testimonial.id} bind:this={testimonial[i]} style="transform:translateX(calc(100% * {i} + 2.4rem * {i}))">
         <img class="testimonial-img" src={testimonial.src} alt={testimonial.alt} />
         <blockquote class="testimonial">
           <p class="testimonial-text">{testimonial.quote}"Lorem ipsum dolor sit amet consectetur adipisicing elit. Et excepturi nihil perferendis deserunt error! Nemo quisquam ipsa qui praesentium eaque. Cum assumenda placeat ipsam saepe eligendi quidem."</p>
@@ -103,23 +85,16 @@
   .carousel-testimonials {  
     max-width: 80rem;
     height: 45.6rem;
-    margin: 0 auto 9.6rem auto;  
+    margin: 0 auto 8rem auto;  
     position: relative;
     overflow: hidden;
   }
 
-  /* .testimonial-wwheading {
-    color: #333;
-    text-align: center;
-  } */
-
-  
-  .testimonial-box {
+   .testimonial-box {
     width: 80rem;
-    margin: 9.6rem auto;
+    margin: 6.4rem auto 4.8rem auto;
     background-color: #0C2D48;
     padding: 3.2rem 4.8rem 3.2rem 8rem;
-
     border-radius: 9px;
     position: absolute;    
 
@@ -127,8 +102,6 @@
     align-items: center;
     gap: 8rem;
     transition: transform 1s;
-
-    /* transform: translateX(100%); */
   }
 
   .testimonial-img {
@@ -176,13 +149,13 @@
   .btn--left {
     left: 2%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -4.2rem);
   }
 
   .btn--right {
     right: 2%;
     top: 50%;
-    transform: translate(50%, -50%);
+    transform: translate(50%, -4.2rem);
   }
 
   .btn-icon {
@@ -195,7 +168,7 @@
     position: absolute;
     left: 50%;
     bottom: 0;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, -3.2rem);
     /* transform: translate(-50%, 3.2rem); */
 
     display: flex;

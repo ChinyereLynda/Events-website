@@ -3,7 +3,7 @@
   import Tabs from "../reusable/Tabs.svelte";
 
   let items = ['Home', 'About', 'Our Services', 'Gallery', 'Contact'];
-  let activeItem = 'Home';
+  let activeItem = '';
   let footer = true;
   
 
