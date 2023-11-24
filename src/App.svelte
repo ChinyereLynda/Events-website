@@ -55,8 +55,8 @@ const goToHome = () => {
 			{/if}
 
 			{#if activeComponent !== 'Contact'}
-			<Testimonial />
 			<CtaGallery />
+			<Testimonial />
 			<Cta on:ctaToContact={contactComponent} />
 			{/if}
 </main>

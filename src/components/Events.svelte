@@ -36,7 +36,7 @@
         </ul>
 
         <div class="event-btn">
-          <Button>Book Now</Button>
+          <Button type="primary" inverse={true}>Book Now</Button>
         </div>
 
       </div>  
@@ -73,7 +73,7 @@
         </ul>
 
         <div class="event-btn">
-          <Button>Book Now</Button>
+          <Button type="primary" inverse={true}>Book Now</Button>
         </div>
 
       </div>  
@@ -110,7 +110,7 @@
         </ul>
 
         <div class="event-btn">
-          <Button>Book Now</Button>
+          <Button type="primary" inverse={true}>Book Now</Button>
         </div>
 
       </div>  

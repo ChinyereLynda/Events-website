@@ -68,7 +68,8 @@
     max-width: 70%;
     max-height: 70%;
     margin: 0 auto;
-    background: rgb(179, 179, 220, 0.8);
+    /* background: rgb(179, 179, 220, 0.8); */
+    background: rgba(207, 213, 217, 0.8);
     color: darkblue;
     position: absolute;
     top: 50%;

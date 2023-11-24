@@ -34,7 +34,7 @@
 
   .btn-mobile-nav{
     border: none;
-    background-color: darkblue;
+    background-color: #0C2D48;
     cursor: pointer;
 
     display: none;

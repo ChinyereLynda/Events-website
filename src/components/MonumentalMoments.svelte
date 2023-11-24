@@ -1,4 +1,7 @@
 <script>
+  import Button from "../reusable/Button.svelte";
+
+
 const monumentalMoments = [
 		{src: '/img/gallery/corprt event.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 1},
     {src: '/img/gallery/commerce.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 2},
@@ -22,7 +25,10 @@ const monumentalMoments = [
 
     <div class="moments-text-box">
       <h3 class="heading-tertiary">Our Memorable Events</h3>
-      <p class="moments-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, ut illo ducimus possimus doloribus error alias tempore, aut explicabo accusamus modi, iste nemo quaerat culpa. Illum blanditiis nesciunt commodi maxime! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rerum omnis aliquid, impedit dicta corporis neque esse nemo voluptatibus. Accusamus nam, officia aliquid perspiciatis nobis fugiat laborum blanditiis consectetur eos? </p>
+      <p class="moments-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, ut illo ducimus possimus doloribus error alias tempore, aut explicabo accusamus modi, iste nemo quaerat culpa. Illum blanditiis nesciunt commodi maxime! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rerum omnis aliquid, impedit dicta corporis neque esse nemo voluptatibus. </p>
+      <div class="moments-btn">
+        <Button type="primary" inverse={true}>Book Now</Button>
+      </div>
     </div>      
   </div>
 </div>
@@ -61,6 +67,11 @@ const monumentalMoments = [
   .moments-description {
     font-size: 2rem;
     line-height: 1.8;
+    margin-bottom: 3.2rem;
+  }
+
+  .moments-btn {
+    text-align: center;
   }
 
 </style>

@@ -1,7 +1,19 @@
 <script>
   import Button from "../reusable/Button.svelte";
+  // import { slide } from 'svelte/transition';
+  // import { onMount } from 'svelte';
   import ClientLogos from "../reusable/ClientLogos.svelte";
 
+
+  const heroImage = [
+		{src: '/img/image7.jpg', alt: 'hero image',  id: 1}    
+	];
+
+  // let slideElement = false;
+
+  // onMount(() => {
+  //   slideElement = true;
+  // }); 
 </script>
 
 <section class="section-hero">
@@ -10,17 +22,19 @@
           <h1 class="heading-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
           <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam nulla, non vero voluptatum blanditiis quis, ex dolorem, necessitatibus maiores culpa ducimus sed dicta doloribus!</p>
           <div class="btn-wrap">
-            <Button type="primary" bigger={true} inverse={false} on:click>Book Now</Button>
+            <Button type="secondary" bigger={true} inverse={false} on:click>Book Now</Button>
           </div> 
-          <div class="client-box">
+          <!-- <div class="client-box">
             <ClientLogos />
             <p class="client-text">Super <span>memories</span> created for our clients! </p>
-        </div>
+        </div> -->
       </div>
 
+    <!-- {#if slideElement} -->
     <div class="hero-img-box">
-      <img src="/img/image7.jpg" class="hero-img" alt="hero image"/>
+      <img src="/img/image7.jpg" class="hero-img" alt="hero image" />
     </div>
+    <!-- {/if} in:slide={{delay: 200, axis: "x"}} -->
   </div>
 </section>
 
@@ -38,7 +52,11 @@
   .hero-text-box {    
     max-width: 60rem;
     margin: 0 auto;
-    background: rgb(179, 179, 220, 0.9);
+    /* background: rgba(112, 207, 245, 0.8) ; */
+    /* background: rgba(208, 239, 251, 0.8); */
+    /* background: rgba(19, 174, 236, 0.8); */
+    /* background: #13AEEC; */
+    background: rgba(207, 213, 217, 0.8);
     color: #0C2D48;
     position: absolute;
     top: 0;
@@ -52,17 +70,21 @@
     margin-bottom: 4.8rem ;
   }
 
+  .hero-img-box {
+    transition: all 0.4s;
+  }
+  
   .hero-img {
     display: block;
     width: 100%;
-    height: 100vh;
+    height: 100vh;    
   }
-  
+    
   /* .btn-wrap {
     text-align: right;
   } */
 
-  .client-box {
+  /* .client-box {
     display: flex;
     align-items: center;
     gap: 1.6rem;
@@ -77,6 +99,6 @@
   .client-text span{
     color: gold;
     font-weight: 700;
-  }
+  } */
 
 </style>

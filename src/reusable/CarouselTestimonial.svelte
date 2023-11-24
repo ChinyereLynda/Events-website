@@ -85,7 +85,7 @@
   .carousel-testimonials {  
     max-width: 80rem;
     height: 45.6rem;
-    margin: 0 auto 8rem auto;  
+    margin: 0 auto;  
     position: relative;
     overflow: hidden;
   }
@@ -168,7 +168,7 @@
     position: absolute;
     left: 50%;
     bottom: 0;
-    transform: translate(-50%, -3.2rem);
+    transform: translate(-50%, -6.4rem);
     /* transform: translate(-50%, 3.2rem); */
 
     display: flex;

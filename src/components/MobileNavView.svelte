@@ -38,7 +38,7 @@ const clearActiveItem = () => {
 
 <style>
   .mobile-nav {
-    background-color: rgba(0, 0, 139, 0.849);
+    background-color: rgba(12, 44, 70, 0.7);
     width: 100%;
     height: 100vh;
     position: fixed;

@@ -45,6 +45,13 @@
 </section>
 
  <style>
+  .section-testimonials {
+    margin-bottom: 4.8rem;
+    /* background-color:  #ced5da; */
+    /* padding: 4.8rem 0 ; */
+
+  }
+
   .testimonial-heading {
     color: #333;
     text-align: center;

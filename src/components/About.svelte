@@ -58,7 +58,8 @@
     max-width: 70%;
     max-height: 70%;
     margin: 0 auto;
-    background: rgba(19, 174, 236, 0.8);
+    /* background: rgba(19, 174, 236, 0.8); */
+    background: rgba(207, 213, 217, 0.8);
     color: #0C2D48;
     position: absolute;
     top: 50%;

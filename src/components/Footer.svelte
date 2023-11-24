@@ -47,6 +47,7 @@ const tabChange = (e) => {
 
 <style>
   .footer {
+    background-color: #e7eaed;
     padding: 6.4rem 0;
     border-top: 1px solid #eee;
   } 

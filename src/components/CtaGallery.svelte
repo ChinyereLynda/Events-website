@@ -19,7 +19,7 @@
 
 <style>  
 .section-cta-gallery {
-  margin-bottom: 3.2rem;
+  margin-bottom: 8rem;
 }
 
 .cta-gallery-backgroundimg-holder {

@@ -37,20 +37,18 @@
     color: #fff;
     cursor: pointer;
   }
-
   .item {
     transition: all 0.3s;
   }
 
-
   .item:hover {
-    color: gold;
+    color: #ced5da;
     font-weight: 500;
   }
 
   .active {
-    color: gold;
-    border-bottom: 2px solid gold;
+    color: #ced5da;
+    /* border-bottom: 2px solid gold; */
   }
 
 /********************************/
@@ -95,7 +93,7 @@
 
 .services li{
   color: #fff;
-  background: darkblue;
+  background: #0C2D48;
   border: #fff solid 1px;
   padding: 0.4rem 1.2rem;
   border-radius: 6px;
