@@ -6,7 +6,7 @@ import Form from "./Form.svelte";
   <div class="contact-container">
       <div class="contact-text-box">
           <h1 class="heading-primary">Contact Us</h1>
-          <p class="contact-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam nulla, non vero voluptatum blanditiis quis, ex dolorem, necessitatibus maiores culpa ducimus sed dicta doloribus!</p>          
+          <p class="contact-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam nulla, non vero voluptatum blanditiis quis!</p>          
       </div>
 
       <div class="contact-img-box">
@@ -33,7 +33,7 @@ import Form from "./Form.svelte";
     margin: 0 auto;
     /* background: rgb(179, 179, 220, 0.8); */
     background: rgba(207, 213, 217, 0.8);
-    color: darkblue;
+    color:  #0C2D48;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);

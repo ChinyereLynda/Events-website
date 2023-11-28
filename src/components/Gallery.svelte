@@ -21,7 +21,7 @@
   <div class="gallery-container">
       <div class="gallery-text-box">
           <h1 class="heading-primary">Gallery</h1>
-          <p class="gallery-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam nulla, non vero voluptatum blanditiis quis, ex dolorem, necessitatibus maiores culpa ducimus sed dicta doloribus!</p>          
+          <p class="gallery-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam nulla, non vero voluptatum blanditiis quis.</p>          
       </div>
 
       <div class="gallery-img-box">
@@ -70,7 +70,7 @@
     margin: 0 auto;
     /* background: rgb(179, 179, 220, 0.8); */
     background: rgba(207, 213, 217, 0.8);
-    color: darkblue;
+    color:  #0C2D48;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);

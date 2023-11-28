@@ -6,7 +6,7 @@
   <div class="about-container">
       <div class="about-text-box">
           <h1 class="heading-primary">About Us</h1>
-          <p class="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam nulla, non vero voluptatum blanditiis quis, ex dolorem, necessitatibus maiores culpa ducimus sed dicta doloribus!</p>          
+          <p class="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam nulla, non vero voluptatum blanditiis quis!</p>          
       </div>
 
       <div class="about-img-box">

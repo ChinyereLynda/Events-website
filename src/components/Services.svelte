@@ -17,7 +17,7 @@ const tabChange = (e) => {
   <div class="services-container">
       <div class="services-text-box">
           <h1 class="heading-primary">Our Services</h1>
-          <p class="services-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam nulla, non vero voluptatum blanditiis quis, ex dolorem.</p>          
+          <p class="services-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam nulla.</p>          
       </div>
 
       <div class="services-img-box">
@@ -50,7 +50,7 @@ const tabChange = (e) => {
     margin: 0 auto;
     /* background: rgb(179, 179, 220, 0.8); */
     background: rgba(207, 213, 217, 0.8);
-    color: darkblue;
+    color:  #0C2D48;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
