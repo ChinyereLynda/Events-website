@@ -142,4 +142,23 @@ body {
   .grid--2-cols {
     grid-template-columns: 1fr;
   }
+  .heading-primary {
+    font-size: 4.8rem;
+    margin-bottom: 2.4rem;
+  }
+}
+
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 544px (Phones)*/
+/**************************************************/
+@media (max-width: 34em) {
+  .heading-primary {
+    font-size: 3.6rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+  }
 }

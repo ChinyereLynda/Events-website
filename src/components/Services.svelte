@@ -72,5 +72,25 @@ const tabChange = (e) => {
     margin: 0 auto;
     margin-top: 4.8rem;
   }
+
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 544px (Phones)*/
+/**************************************************/
+@media (max-width: 34em) {
+
+  .services-text-box {    
+    padding-top: 3.2rem;
+    padding-bottom: 2rem;
+  }
+  .heading-primary {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .services-description {
+    display: none;
+  }
+}
+  
     
 </style>

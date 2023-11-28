@@ -51,5 +51,18 @@ import Form from "./Form.svelte";
     max-height: 60vh;
   }
 
+ /**************************************************/
+/* MOBILE NAVIGATION BELOW 544px (Phones)*/
+/**************************************************/
+@media (max-width: 34em) {
+  .contact-text-box {    
+    padding-top: 3.2rem;
+    padding-bottom: 1.6rem;
+  }
+
+  .contact-description {
+    display: none;
+  }
+}
   
   </style>

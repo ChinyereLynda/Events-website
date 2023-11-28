@@ -132,10 +132,20 @@
 /* MOBILE NAVIGATION BELOW 544px (Phones)*/
 /**************************************************/
 @media (max-width: 34em) {
+  .gallery-text-box {    
+    padding-top: 3.2rem;
+    padding-bottom: 1.6rem;
+  }
+
+  .gallery-description {
+    display: none;
+  }
+
   .moments-gallery-box {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
+ 
 }
 
   </style>

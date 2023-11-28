@@ -104,8 +104,40 @@
     line-height: 1.8;
   }
 
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 752px (Smaller Tablets)*/
+/**************************************************/
+@media (max-width: 47em) {
+  .about-ceo-container {    
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+    justify-content: center;
+  }
 
+  .ceo-img-box {
+    justify-self: center;
+  }
 
+  .ceo-image {
+    height: 40rem;
+  }
+}
+  
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 544px (Phones)*/
+/**************************************************/
+@media (max-width: 34em) {
+
+  .about-text-box {    
+    padding-top: 3.2rem;
+    padding-bottom: 1.2rem;
+  }
+  .about-description {
+    display: none;
+    
+
+  }
+}
 
   
 </style>
