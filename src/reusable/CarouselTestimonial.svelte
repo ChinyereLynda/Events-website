@@ -90,7 +90,7 @@
     overflow: hidden;
   }
 
-   .testimonial-box {
+  .testimonial-box {
     width: 80rem;
     margin: 6.4rem auto 4.8rem auto;
     background-color: #0C2D48;
@@ -209,6 +209,18 @@
     gap: 4.8rem;
     padding: 2.4rem 4.8rem 3.2rem 4.8rem;
   } 
+
+  .btn--left {
+    left: 4%;
+  }
+
+  .btn--right {
+    right: 4%;
+  }
+
+  .dots {
+  transform: translate(-50%, -650%);
+  }
 } 
 
 /**************************************************/
@@ -236,9 +248,8 @@
     line-height: 1.5;  
     margin-bottom: 2rem;
   }
-}
-
-.btn--left {
+  
+  .btn--left {
     left: 4%;
     transform: translate(-50%, -70%);
   }
@@ -246,9 +257,10 @@
     right: 4%;
     transform: translate(50%, -70%);
   }
-
-.dots {
-  transform: translate(-50%, 2%);
+  
+  .dots {
+    transform: translate(-50%, 2%);
+  }
 }
 
 </style>

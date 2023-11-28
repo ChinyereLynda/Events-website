@@ -98,6 +98,53 @@
     font-weight: 700;
   } */
 
-  
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 752px (Smaller Tablets)*/
+/**************************************************/
+@media (max-width: 47em) {
+  .section-hero  {
+    margin-bottom: 3.2rem;
+  }
+  /* .hero-img {    
+    height: 100vh;    
+  } */
+
+  .hero-text-box {   
+    padding: 8rem 2.4rem 2.4rem 2.4rem;    
+  } 
+
+  .hero-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+  }
+
+  .hero-img {    
+    height: auto;    
+  }
+}
+
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 544px (Phones)*/
+/**************************************************/
+@media (max-width: 34em) {
+  .section-hero  {
+    margin-bottom: 4.8rem;
+  }
+
+  .hero-text-box {   
+    padding: 6.4rem 2.4rem 3.2rem 2.4rem;    
+  } 
+
+  .hero-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem ;
+  }
+
+  .hero-img {    
+    height: 100vh;    
+  }
+}
 
 </style>

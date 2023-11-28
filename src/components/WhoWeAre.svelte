@@ -16,7 +16,6 @@
     margin-bottom: 8rem;
     font-size: 2rem;
     line-height: 1.8;
-  }
-
+  }  
   
 </style>
