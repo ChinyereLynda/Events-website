@@ -24,10 +24,10 @@ const monumentalMoments = [
     </div>
 
     <div class="moments-text-box">
-      <h3 class="heading-tertiary">Our Memorable Events</h3>
+      <h3 class="moments-heading heading-tertiary">Our Memorable Events</h3>
       <p class="moments-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, ut illo ducimus possimus doloribus error alias tempore, aut explicabo accusamus modi, iste nemo quaerat culpa. Illum blanditiis nesciunt commodi maxime! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rerum omnis aliquid, impedit dicta corporis neque esse nemo voluptatibus. </p>
       <div class="moments-btn">
-        <Button type="primary" inverse={true}>Book Now</Button>
+        <Button type="primary" inverse={true} on:click>Book Now</Button>
       </div>
     </div>      
   </div>
@@ -60,7 +60,7 @@ const monumentalMoments = [
     margin: 4.8rem 4.8rem 8rem auto;
   }
 
-  .heading-tertiary {
+  .moments-heading {
     text-align: center;
   }
 
@@ -73,5 +73,32 @@ const monumentalMoments = [
   .moments-btn {
     text-align: center;
   }
+
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 752px (Smaller Tablets)*/
+/**************************************************/
+@media (max-width: 47em) {
+  .monumental-moments-container {
+    gap: 3.2rem;
+  }
+
+  .moments-img-box {
+    padding: 3.2rem 3.2rem 0 3.2rem;
+  }
+
+  .moments-text-box {
+    margin: 0 4.8rem 9.6rem 4.8rem;   
+  }
+
+}
+
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 544px (Phones)*/
+/**************************************************/
+@media (max-width: 34em) {
+  .moments-img-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 </style>

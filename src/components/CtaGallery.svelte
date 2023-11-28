@@ -56,6 +56,30 @@
   letter-spacing: -0.5px;
   }
 
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 752px (Smaller Tablets)*/
+/**************************************************/
+@media (max-width: 47em) {
 
+  .cta-gallery-backgroundimg-holder {
+    height: 30rem;
+  }
+  
+  .cta-gallery-caption {
+  font-size: 3.2rem;
+  font-weight: 600;
+  }
+}
+
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 544px (Phones)*/
+/**************************************************/
+@media (max-width: 34em) {
+  .cta-gallery-caption {
+  font-size: 2.4rem;
+  font-weight: 600;
+  }
+
+}
 
 </style>

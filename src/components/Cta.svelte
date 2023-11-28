@@ -30,6 +30,7 @@
   }
 
   .cta-box {
+    min-width: 70rem;
     position: absolute;
     top: 50%;
     right: 50%;
@@ -52,6 +53,49 @@
   letter-spacing: -0.5px;
   }
 
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 752px (Smaller Tablets)*/
+/**************************************************/
+@media (max-width: 47em) {
+  .cta-backgroundimg-holder {
+    height: 30rem;
+  }
+  
+  .cta-box {
+    min-width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 
+  .cta-text-box {
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+    justify-content: center;
+  }  
 
+  .cta-button {
+    justify-self: center;
+  }
+
+  .cta-caption {
+  font-size: 3.2rem;
+  font-weight: 600;
+  justify-self: center;
+  }
+}
+
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 544px (Phones)*/
+/**************************************************/
+@media (max-width: 34em) {
+  .cta-box {
+    max-width: 50rem;
+  }
+
+  .cta-caption {
+  font-size: 2.4rem;
+  font-weight: 600;
+  }
+}
 </style>

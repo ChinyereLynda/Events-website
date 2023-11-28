@@ -16,6 +16,7 @@ const tabChange = (e) => {
 const clearActiveItem = () => {
   activeItem = '';
 }
+
 </script>
 
 {#if showMobileNav}
@@ -43,6 +44,7 @@ const clearActiveItem = () => {
     height: 100vh;
     position: fixed;
     z-index: 1;
+        
   }
 
   .mobile-btn {
@@ -51,9 +53,9 @@ const clearActiveItem = () => {
   }
 
   .btn-mobile-nav{
-    margin: 2.4rem  4.8rem ;
+    margin: 2.4rem;
     border: none;
-    background-color: rgba(0, 0, 139, 0.26);
+    background-color: rgba(12, 44, 70, 0.7);
     cursor: pointer;
     
   }
@@ -72,5 +74,4 @@ const clearActiveItem = () => {
     gap: 4.8rem;
   }
   
-
 </style>

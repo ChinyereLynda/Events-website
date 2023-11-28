@@ -36,7 +36,7 @@
         </ul>
 
         <div class="event-btn">
-          <Button type="primary" inverse={true}>Book Now</Button>
+          <Button type="primary" inverse={true} on:click>Book Now</Button>
         </div>
 
       </div>  
@@ -73,13 +73,13 @@
         </ul>
 
         <div class="event-btn">
-          <Button type="primary" inverse={true}>Book Now</Button>
+          <Button type="primary" inverse={true} on:click>Book Now</Button>
         </div>
 
       </div>  
     </div>    
 
-    <div class="events">
+    <div class="events weddings">
       <img 
         src="/img/wedding.jpg" 
         class="events-img" 
@@ -110,7 +110,7 @@
         </ul>
 
         <div class="event-btn">
-          <Button type="primary" inverse={true}>Book Now</Button>
+          <Button type="primary" inverse={true} on:click>Book Now</Button>
         </div>
 
       </div>  
@@ -131,12 +131,10 @@
     overflow: hidden;
     transition: all 0.4s;
   }
-
   .events:hover {
     transform: translateY(-1.2rem);
     box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
   }
-
   .events-img {
     width:100%; /*Please use appropriate image size*/
     /* height: 35%; */
@@ -165,19 +163,17 @@
   }
 
   .tag--commercial {
-    background-color: darkblue;
+    background-color: #0C2D48;
     color: #fff;
   }
 
   .tag--wedding {
     background-color: cyan;
-
-
   }
 
   .card-title {
     font-size: 2.4rem;
-    color: darkblue;
+    color:  #0C2D48;
     font-weight: 600;
     margin-bottom: 3.2rem;
   }
@@ -200,11 +196,27 @@
   .event-icon {
     height: 2.4rem;
     width: 2.4rem;
-    color: darkblue;
+    color: #0C2D48;
   }
 
   .event-btn {
     text-align: center;
   }
+
+/*******************************************/
+/* MOBILE NAVIGATION BELOW 944px (Tablets)*/
+/******************************************/
+@media (max-width: 59em) {
+  .event-written-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .events {
+    max-width: 38.56rem;
+    grid-column: 1 / -1;
+    justify-self: center;
+  } 
+}
+
     
 </style>

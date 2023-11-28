@@ -107,3 +107,39 @@ body {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(18, 175, 237, 0.5);
 } */
+
+/***********************************/
+/* Below 1200px (Landscape tablets)*/
+/***********************************/
+@media (max-width: 75em) {
+  html {
+    font-size: 59.38%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+}
+
+/*******************************************/
+/* MOBILE NAVIGATION BELOW 944px (Tablets)*/
+/******************************************/
+@media (max-width: 59em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+  }
+}
+
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 752px (Smaller Tablets)*/
+/**************************************************/
+@media (max-width: 47em) {
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+}

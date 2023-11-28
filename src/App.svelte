@@ -47,7 +47,7 @@ const goToHome = () => {
 			{:else if activeComponent === 'About'}
 			<About />
 			{:else if activeComponent === 'Our Services'}
-			<Services />
+			<Services on:click={contactComponent}/>
 			{:else if activeComponent === 'Gallery'}
 			<Gallery />
 			{:else if activeComponent === 'Contact'}

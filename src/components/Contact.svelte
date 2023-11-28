@@ -23,7 +23,7 @@ import Form from "./Form.svelte";
   }
 
   .contact-container {
-    margin: 0 auto 9.6rem;
+    margin: 0 auto 8rem;
     position: relative;
   }
   

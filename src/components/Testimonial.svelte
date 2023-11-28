@@ -57,6 +57,28 @@
     text-align: center;
   }
 
+  /**************************************************/
+/* MOBILE NAVIGATION BELOW 752px (Smaller Tablets)*/
+/**************************************************/
+@media (max-width: 47em) {
+  .section-testimonials {
+    margin-bottom: 0;    
+  }
+
+  .testimonial-heading {
+    margin-bottom: 0;
+    }  
+  } 
+
+  /**************************************************/
+/* MOBILE NAVIGATION BELOW 544px (Phones)*/
+/**************************************************/
+@media (max-width: 34em) {
+  .section-testimonials {
+    margin-bottom: 4.8rem;    
+  }
+}
+
   /* 
   .testimonial-box {
     width: 80rem;

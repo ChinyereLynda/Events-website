@@ -128,4 +128,14 @@
     text-align: center;
   }
 
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 544px (Phones)*/
+/**************************************************/
+@media (max-width: 34em) {
+  .moments-gallery-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
   </style>

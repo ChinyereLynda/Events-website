@@ -1,8 +1,7 @@
 <script>
   import Logo from "../reusable/Logo.svelte";
   import DesktopNavigation from "./DesktopNavigation.svelte";
-
-
+  
 </script>
 
 <header class="header">
@@ -29,7 +28,7 @@
   .header-nav {
     display: flex;
     align-items: center;
-    gap: 3.2rem;
+    gap: 4.8rem;
   }
 
   .btn-mobile-nav{
@@ -46,6 +45,18 @@
     color: #fff;
 }
 
+/* .sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(12, 44, 70, 0.7);
+  z-index: 10;  
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+} */
 
 /*******************************************/
 /* MOBILE NAVIGATION BELOW 944px (Tablets)*/
@@ -54,5 +65,21 @@
   .btn-mobile-nav {
     display: block;
   }
-}  
+}
+
+/***********************************/
+/* Below 1200px (Landscape tablets)*/
+/***********************************/
+@media (max-width: 75em) {  
+  .header {
+    padding: 0 2.4rem;
+  }  
+
+  .header-nav {
+    gap: 3.2rem;
+  }
+
+}
+
+
 </style>

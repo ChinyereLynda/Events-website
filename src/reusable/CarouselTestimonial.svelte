@@ -149,13 +149,15 @@
   .btn--left {
     left: 2%;
     top: 50%;
-    transform: translate(-50%, -4.2rem);
-  }
+    /* transform: translate(-50%, -4.2rem); */
+    transform: translate(-50%, -150%);
 
+  }
   .btn--right {
     right: 2%;
     top: 50%;
-    transform: translate(50%, -4.2rem);
+    /* transform: translate(-50%, -4.2rem); */
+    transform: translate(50%, -150%);
   }
 
   .btn-icon {
@@ -187,5 +189,66 @@
   .dot--fill {
     background-color: #0C2D48;
   }
+
+
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 752px (Smaller Tablets)*/
+/**************************************************/
+@media (max-width: 47em) {
+  .carousel-testimonials {  
+    max-width: 60rem; 
+    height: 45.6rem;
+  } 
+
+  .testimonial-img {
+    /* height: 20rem; */
+    transform: scale(1);
+  }
+   .testimonial-box {
+    width: 60rem;
+    gap: 4.8rem;
+    padding: 2.4rem 4.8rem 3.2rem 4.8rem;
+  } 
+} 
+
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 544px (Phones)*/
+/**************************************************/
+@media (max-width: 34em) {
+  .carousel-testimonials { 
+    max-width: 40rem;  
+    padding-bottom: 4.8rem;
+  }
+
+  .testimonial-box {
+    flex-direction: column;
+    gap: 2rem;
+    width: 40rem;
+    padding: 2.4rem 3.2rem;
+    margin: 3.2rem auto 0 auto;
+  }
+
+  .testimonial-img {
+    height: 15rem;
+  }
+
+  .testimonial-text {  
+    line-height: 1.5;  
+    margin-bottom: 2rem;
+  }
+}
+
+.btn--left {
+    left: 4%;
+    transform: translate(-50%, -70%);
+  }
+  .btn--right {
+    right: 4%;
+    transform: translate(50%, -70%);
+  }
+
+.dots {
+  transform: translate(-50%, 2%);
+}
 
 </style>

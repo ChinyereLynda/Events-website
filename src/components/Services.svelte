@@ -4,7 +4,7 @@ import Cleaning from './Cleaning.svelte';
 import Events from './Events.svelte';
 import MonumentalMoments from './MonumentalMoments.svelte';
 
-let items = ['Events', 'Cleaning Services', 'Monumental Moments'];
+let items = ['Events', 'Monumental Moments', 'Cleaning Services'];
 let activeItem = 'Events';
 let services = true;
 
@@ -28,11 +28,11 @@ const tabChange = (e) => {
     <Tabs {items} {activeItem} {services} on:tabChange={tabChange}/>
     
     {#if activeItem === 'Events'}
-      <Events />
-			{:else if activeItem === 'Cleaning Services'}
-      <Cleaning />
+      <Events on:click />		
 			{:else if activeItem === 'Monumental Moments'}
-			<MonumentalMoments />
+			<MonumentalMoments on:click/>
+      {:else if activeItem === 'Cleaning Services'}
+      <Cleaning on:click />
 		{/if}
 
   </div>

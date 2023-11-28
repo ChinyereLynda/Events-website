@@ -28,7 +28,7 @@
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 3.2rem;
+    gap: 4.8rem;
     padding: 0;
   }
 
@@ -62,7 +62,7 @@
   }
 
   .column li {
-    font-size: 3rem;;
+    font-size: 3rem;
   }
 
 /*****************************/
@@ -100,22 +100,34 @@
 }
 
 
-
-
-
-/*******************************************/
-/* MOBILE NAVIGATION BELOW 944px (Tablets)*/
-/******************************************/
-/* @media (max-width: 59em) {
-  .tabs-list {                   
-    flex-direction: column;
-    gap: 4.8rem;
-    align-items: center;
+/***********************************/
+/* Below 1200px (Landscape tablets)*/
+/***********************************/
+@media (max-width: 75em) {    
+  .tabs-list {
+    gap: 3.2rem;
   }
+
+  .services {
+  gap: 0;
+  }  
+
+  .footer {
+    gap: 1.6rem;
+  }
+
+  .column {
+    gap: 3.2rem;
+  }
+
+  .column li {
+    font-size: 2.4rem;
+  }
+
   
-} */
 
 
+}
 
 
 </style>

@@ -4,13 +4,11 @@
   // import { onMount } from 'svelte';
   import ClientLogos from "../reusable/ClientLogos.svelte";
 
-
   const heroImage = [
 		{src: '/img/image7.jpg', alt: 'hero image',  id: 1}    
 	];
 
   // let slideElement = false;
-
   // onMount(() => {
   //   slideElement = true;
   // }); 
@@ -70,9 +68,9 @@
     margin-bottom: 4.8rem ;
   }
 
-  .hero-img-box {
+  /* .hero-img-box {
     transition: all 0.4s;
-  }
+  } */
   
   .hero-img {
     display: block;
@@ -83,7 +81,6 @@
   /* .btn-wrap {
     text-align: right;
   } */
-
   /* .client-box {
     display: flex;
     align-items: center;
@@ -100,5 +97,7 @@
     color: gold;
     font-weight: 700;
   } */
+
+  
 
 </style>

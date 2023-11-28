@@ -8,7 +8,7 @@
       <h3 class="heading-tertiary">Our Sparkling Touch</h3>
       <p class="cleaning-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, ut illo ducimus possimus doloribus error alias tempore, aut explicabo accusamus modi, iste nemo quaerat culpa. Illum blanditiis nesciunt commodi maxime! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rerum omnis aliquid, impedit dicta corporis neque esse nemo voluptatibus. Accusamus nam, officia aliquid perspiciatis nobis fugiat laborum blanditiis consectetur eos.</p>
       <div class="cleaning-btn">
-        <Button type="primary" inverse={true}>Book Now</Button>
+        <Button type="primary" inverse={true} on:click>Book Now</Button>
       </div>
     </div>  
     
@@ -26,6 +26,11 @@
 
   .cleaning-box {
     align-items: center;
+    column-gap: 3.2rem;
+  }
+
+  .cleaning-text-box{
+    margin-left: 4.8rem;
   }
 
   .cleaning-description {

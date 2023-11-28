@@ -14,19 +14,19 @@ const tabChange = (e) => {
 
 <footer class="footer">
   <div class="container grid grid--3-cols">
+
     <div class="logo-col">  
       <div class="footer-logo">
         <Logo on:goToHome />
       </div>
-
       <ul class="social-links">
         <li><a class="social-link" href="#top" target="_blank"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li>
         <li><a class="social-link" href="#top" target="_blank"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
         <li><a class="social-link" href="#top" target="_blank"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
       </ul>
-
       <p class="copyright">Copyright &copy; 2023 by Realfresh Ltd. All rights reserved</p>
     </div>
+
     <div class="address-col">
       <p class="footer-heading">Contact us</p>
       <address class="contacts">
@@ -35,9 +35,9 @@ const tabChange = (e) => {
           <a class="social-link" href="tel:234 703 7386 459">+234 703 7386 459</a><br />
           <a class="social-link" href="mailto:chinyeremuonaka@gmail.com">chinyeremuonaka@gmail.com</a>
         </p>
-
       </address>
     </div>
+
     <nav class="nav-col">
       <p class="footer-heading">Company</p>
       <Tabs {items} {activeItem} {footer} on:tabChange={tabChange} on:changeComponent />
@@ -113,8 +113,31 @@ const tabChange = (e) => {
     margin-bottom: 1.8rem;
   }
 
+/*******************************************/
+/* MOBILE NAVIGATION BELOW 944px (Tablets)*/
+/******************************************/
+@media (max-width: 59em) {
+  .grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 544px (Phones)*/
+/**************************************************/
+@media (max-width: 34em) {
+  .grid--3-cols {
+    grid-template-columns: 1fr;   
+  }
 
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .footer-heading {   
+    margin-bottom: 1.8rem;
+  }
+}
 
 
 </style>

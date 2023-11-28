@@ -77,7 +77,6 @@
             </div>
           </div>
 
-
           <!-- <div>
           <label for="select-event">Which of our services do you need?</label>
           <select id="select-event">
@@ -113,9 +112,9 @@
 </section>
 
 <style>
-.section-form {
-  padding: 4.8rem 0;
-}
+/* .section-form {
+   padding: 2.4rem 0; 
+} */
 
 .form-box {
   display: grid;
@@ -217,14 +216,33 @@
 }
 
 .success {
-  background-color: green;
-  
+  background-color: green;  
 }
 
 .error {
   background-color: red;
-
-
 }
 
+
+/*******************************************/
+/* MOBILE NAVIGATION BELOW 944px (Tablets)*/
+/******************************************/
+@media (max-width: 59em) {
+  .form-box {
+  grid-template-columns: 3fr 2fr;
+  }
+
+  .form-text-box{
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+  }
+}
+
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 544px (Phones)*/
+/**************************************************/
+@media (max-width: 34em) {
+  .form-box {
+  grid-template-columns: 1fr;
+  }
+}
 </style>
