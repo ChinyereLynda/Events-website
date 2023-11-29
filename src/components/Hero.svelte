@@ -143,7 +143,7 @@
   }
 
   .hero-img {    
-    height: 100vh;    
+    height: 60vh;    
   }
 }
 
