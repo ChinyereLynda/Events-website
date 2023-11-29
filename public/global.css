@@ -157,6 +157,11 @@ body {
 /* MOBILE NAVIGATION BELOW 544px (Phones)*/
 /**************************************************/
 @media (max-width: 34em) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
   .heading-primary {
     font-size: 3.6rem;
     margin-bottom: 3.2rem;
