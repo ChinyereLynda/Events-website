@@ -36,7 +36,7 @@
       <div class="form-text-box">
         <h2 class="heading-tertiary">Let's create a wonderful experience!</h2>
 
-        <p class="form-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quidem iusto architecto doloremque.</p>
+        <p class="form-text">Get in touch with us to bring your visions to life!</p>
 
         <form class="contact-form" on:submit|preventDefault={sendEmail}>
           <div>

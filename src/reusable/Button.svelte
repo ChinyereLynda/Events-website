@@ -57,7 +57,7 @@ const ctaToContact = (e) => {
 
   .bigger {
     padding: 0.8rem 1.2rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .primary.inverse {

@@ -6,7 +6,7 @@
   <div class="about-container">
       <div class="about-text-box">
           <h1 class="heading-primary">About Us</h1>
-          <p class="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam nulla, non vero voluptatum blanditiis quis!</p>          
+          <p class="about-description">We are an event planning management and cleaning services company committed to creating eventful moments while leaving a sparkling touch!</p>          
       </div>
 
       <div class="about-img-box">
@@ -22,7 +22,9 @@
 
       <div class="ceo-text-box">
         <h3 class="heading-tertiary">A Zeal for Professionalism</h3>
-        <p class="ceo-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, ut illo ducimus possimus doloribus error alias tempore, aut explicabo accusamus modi, iste nemo quaerat culpa. Illum blanditiis nesciunt commodi maxime! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rerum omnis aliquid, impedit dicta corporis neque esse nemo voluptatibus. Accusamus nam, officia aliquid perspiciatis nobis fugiat laborum blanditiis consectetur eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, corporis! Praesentium iusto, voluptatibus, commodi totam dolor tempora ducimus quisquam quas tenetur, quo minima. Optio excepturi perferendis obcaecati consequatur dolorum saepe.</p>
+        <p class="ceo-description">Ella Valdez Limited is a multi-functional service company    incorporated in 2020. The company’s passion and commitment, combined with the experience of our dedicated team, can create a memorable experience for both individuals and companies.
+          We are a team that is passionate in creating monumental moment of your events, and we work tirelessly to make sure of it. We take pride in delivering either large or small event services to our clients, and we believe that each individual service come to its own uniqueness and we endeavor to provide unparalleled services with an outstanding customer service. We also believe that a successful event is directly linked to the client and guest experience as well, therefore, we work collaboratively to ensure the service
+          we provide is cohesive and even the smallest of detail can have a huge impact to the service rendered.</p>
       </div>      
     </div>
   </div>
@@ -31,12 +33,14 @@
     <div class="container grid grid--2-cols">
       <div class="vision-text-box">
         <h3 class="heading-tertiary">Our Vision</h3>
-        <p class="vision-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, ut illo ducimus possimus doloribus error alias tempore, aut explicabo accusamus modi, iste nemo quaerat culpa. Illum blanditiis nesciunt commodi maxime! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rerum omnis aliquid, impedit dicta corporis neque esse nemo voluptatibus. </p>
+        <p class="vision-description">To be a market leading service provider company in the events management sector. </p>
       </div> 
 
       <div class="mission-text-box">
         <h3 class="heading-tertiary">Our Mission</h3>
-        <p class="mission-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, ut illo ducimus possimus doloribus error alias tempore, aut explicabo accusamus modi, iste nemo quaerat culpa. Illum blanditiis nesciunt commodi maxime! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rerum omnis aliquid, impedit dicta corporis neque esse nemo voluptatibus.</p>
+        <p class="mission-description">Provide a quality valued services to the customers.
+          Building a unique brand with integrity, elegance and professionalism.
+          Making event as memorable and monumental.</p>
       </div>      
       
     </div>
