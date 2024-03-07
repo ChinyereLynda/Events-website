@@ -19,8 +19,8 @@
 <section class="section-hero">
   <div class="hero-container">
       <div class="hero-text-box">
-          <h1 class="heading-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
-          <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam nulla, non vero voluptatum blanditiis quis, ex dolorem, necessitatibus maiores culpa ducimus sed dicta doloribus!</p>
+          <h1 class="heading-primary">Dazzling Events, Sparkling Spaces</h1>
+          <p class="hero-description">Ella Valdez handles the details so you can enjoy the memory.</p>
           <div class="btn-wrap">
             <Button type="secondary" bigger={true} inverse={false} on:click>Book Now</Button>
           </div> 
