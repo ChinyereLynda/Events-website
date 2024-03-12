@@ -48,7 +48,7 @@
   }
   
   .hero-text-box {    
-    max-width: 60rem;
+    max-width: 96rem;
     margin: 0 auto;
     /* background: rgba(112, 207, 245, 0.8) ; */
     /* background: rgba(208, 239, 251, 0.8); */
@@ -57,9 +57,14 @@
     background: rgba(207, 213, 217, 0.8);
     color: #0C2D48;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    padding: 9.6rem 1.4rem 0 2.4rem;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    /* top: 0;
+    bottom: 0; */
+    padding: 4.8rem;    
+    /* padding: 9.6rem 1.4rem 0 2.4rem;  */
+    text-align: center;
   }
   
   .hero-description {
