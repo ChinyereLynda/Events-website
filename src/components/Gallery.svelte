@@ -1,6 +1,14 @@
 <script>
   import Button from "../reusable/Button.svelte";
+  import { onMount } from 'svelte';
 
+  onMount(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  });
 
   const gallery = [
 		{src: '/img/gallery/corprt event.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 1},

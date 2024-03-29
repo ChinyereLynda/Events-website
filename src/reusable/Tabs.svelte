@@ -16,7 +16,7 @@
       <li 
       on:click={() => dispatch('tabChange', item)} 
       on:click={() => dispatch('changeComponent', item)}>
-        <div class:active={item === activeItem} class="item">{item}</div>
+      <div class:active={item === activeItem} class="item">{item}</div>
       </li>
     {/each}
   </ul>
@@ -47,14 +47,13 @@
   }
 
   .active {
-    color: #ced5da;
-    /* border-bottom: 2px solid gold; */
-  }
+    color: #ced5da; 
+/* border-bottom: 2px solid gold; */
+  } 
 
 /********************************/
 /* Tabs for MobileNavView Page */
 /********************************/
-
   .column {
     flex-direction: column;
     gap: 4.8rem;
@@ -63,12 +62,12 @@
 
   .column li {
     font-size: 3rem;
-  }
+  } 
 
 /*****************************/
 /* Tabs for footer Page */
 /*****************************/
-  .footer {
+.footer {
     flex-direction: column;
     gap: 1.8rem;
   }
@@ -83,7 +82,7 @@
     border-bottom: none;
 
   }
-  
+
 /*****************************/
 /* Tabs for Services Page */
 /*****************************/
@@ -123,10 +122,6 @@
   .column li {
     font-size: 2.4rem;
   }
-
-  
-
-
 }
 
 

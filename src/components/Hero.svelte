@@ -80,7 +80,7 @@
   .hero-img {
     display: block;
     width: 100%;
-    height: 100vh;    
+    height: 100vh;        
   }
     
   /* .btn-wrap {
@@ -125,7 +125,7 @@
   }
 
   .hero-img {    
-    height: auto;    
+    height: 100vh;    
   }
 }
 
@@ -148,7 +148,7 @@
   }
 
   .hero-img {    
-    height: 60vh;    
+    height: 100vh;    
   }
 }
 

@@ -3,6 +3,15 @@ import Tabs from '../reusable/Tabs.svelte';
 import Cleaning from './Cleaning.svelte';
 import Events from './Events.svelte';
 import MonumentalMoments from './MonumentalMoments.svelte';
+import { onMount } from 'svelte';
+
+onMount(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  });
 
 let items = ['Events', 'Monumental Moments', 'Cleaning Services'];
 let activeItem = 'Events';

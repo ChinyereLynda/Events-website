@@ -2,7 +2,7 @@
   import Logo from "../reusable/Logo.svelte";
   import Tabs from "../reusable/Tabs.svelte";
 
-  let items = ['Home', 'About', 'Our Services', 'Gallery', 'Contact'];
+  let items = ['Home', 'About', 'Our Services', 'Gallery', 'Contact', 'Terms'];
   let activeItem = '';
   let footer = true;
   
