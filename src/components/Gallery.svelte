@@ -40,8 +40,8 @@
 
   <div class="moments-gallery container">
     <div class="moments-gallery-text-box">
-      <h3 class="heading-tertiary">Our Memorable Events</h3>
-      <p class="moments-gallery-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, ut illo ducimus possimus doloribus error alias tempore, aut explicabo accusamus modi, iste nemo quaerat culpa. Illum blanditiis nesciunt commodi maxime! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rerum omnis aliquid, impedit dicta corporis neque esse nemo voluptatibus. Accusamus nam, officia aliquid perspiciatis nobis fugiat laborum blanditiis consectetur eos? </p>
+      <h3 class="heading-tertiary">Memorable Events</h3>
+      <p class="moments-gallery-description">Monumental Moment of Life is an online magazine dedicated to celebrating life's milestones, big and small. We believe every achievement, from reaching a quarter-century milestone to marking any anniversary, deserves recognition and commemoration. Our mission is to inspire our clients to embrace the joy of celebrating their monumental moments, whether it's a minor triumph or a major life event.<br> Join us in honoring the journey of life, one celebration at a time!</p>
     </div> 
     
     <div class="moments-gallery-box">
@@ -94,6 +94,7 @@
   .gallery-img {
     width: 100%;
     max-height: 60vh;
+    object-fit: cover;        
   }
 
   .moments-gallery-text-box {

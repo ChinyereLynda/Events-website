@@ -41,8 +41,8 @@ const goToHome = () => {
 
 // export let url = "";
 </script>
-<!-- 
-<Router {url}>
+
+<!-- <Router {url}>
   <nav>
 		<div class="link-list">
 			<Link to="/">Home</Link>
@@ -105,6 +105,7 @@ const goToHome = () => {
 	} */
 	/* .link-list {
     display: flex;
+		align-items: center,
     justify-content: center;
     gap: 4.8rem;
     padding: 0;
@@ -114,19 +115,6 @@ const goToHome = () => {
 		text-decoration: none;
 
 	} */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	
 </style>

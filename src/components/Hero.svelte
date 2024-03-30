@@ -59,7 +59,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -65%);
+    transform: translate(-50%, -50%);
     /* top: 0;
     bottom: 0; */
     padding: 4.8rem;    
@@ -80,7 +80,8 @@
   .hero-img {
     display: block;
     width: 100%;
-    height: 100vh;        
+    height: 100vh;
+    object-fit: cover;        
   }
     
   /* .btn-wrap {
@@ -125,7 +126,8 @@
   }
 
   .hero-img {    
-    height: 100vh;    
+    height: 100vh;
+    object-fit: cover;    
   }
 }
 
@@ -148,7 +150,8 @@
   }
 
   .hero-img {    
-    height: 100vh;    
+    height: 100vh;
+    object-fit: cover;    
   }
 }
 
