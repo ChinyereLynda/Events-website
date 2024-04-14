@@ -15,7 +15,7 @@ onMount(() => {
   <div class="contact-container">
       <div class="contact-text-box">
           <h1 class="heading-primary">Contact Us</h1>
-          <p class="contact-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam nulla, non vero voluptatum blanditiis quis!</p>          
+          <p class="contact-description">Fill out the form below. A member of our dedicated team will reach out to you promptly.</p>          
       </div>
 
       <div class="contact-img-box">

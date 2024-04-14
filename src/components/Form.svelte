@@ -17,7 +17,7 @@
   }
 
   function sendEmail(e) {
-    emailjs.sendForm('service_ocap148', 'template_x072ls9', e.target, 'ZVEFfqRykdXODmBP6')
+    emailjs.sendForm('service_62v4o99', 'template_v4xiwym', e.target, 'ZVEFfqRykdXODmBP6')
       .then((result) => {
           console.log('SUCCESS!', result.text);
           successPopup();
@@ -40,12 +40,12 @@
 
         <form class="contact-form" on:submit|preventDefault={sendEmail}>
           <div>
-            <label for="name">Name</label>
+            <label for="name">Full Name</label>
             <input type="text" id="name" name="user_name"/>
           </div>
           <div>
             <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="user_phone"/>
+            <input type="tel" id="phone" name="user_phone" required/>
           </div>
           <div>
             <label for="email">Email</label>
@@ -62,8 +62,8 @@
             </div>
 
             <div class="checkbox-field">
-              <label for="commercial">Commercial Event</label>
-              <input type="checkbox" class="checkbox" value="Commercial Event" id="commercial" name="user_value2" />
+              <label for="commercial">Social Event</label>
+              <input type="checkbox" class="checkbox" value="Social Event" id="commercial" name="user_value2" />
             </div>
 
             <div class="checkbox-field">
@@ -74,6 +74,11 @@
             <div class="checkbox-field">
               <label for="cleaning">Cleaning Services</label>
               <input type="checkbox" class="checkbox" value="Cleaning Services" id="cleaning" name="user_value4" />
+            </div>
+
+            <div class="checkbox-field">
+              <label for="mml">Monumental Moments</label>
+              <input type="checkbox" class="checkbox" value="MML Services" id="mml" name="user_value5" />
             </div>
           </div>
 

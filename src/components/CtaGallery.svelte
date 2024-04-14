@@ -9,7 +9,7 @@
         <h2 class="cta-gallery-caption">Our Beautiful Gallery</h2>
         <div class="cta-gallery-button">
           <a href="#">
-            <Button bigger={true} >Veiw Our Gallery</Button>
+            <Button bigger={true} >View Our Gallery</Button>
           </a>
         </div>
       </div>

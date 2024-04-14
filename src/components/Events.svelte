@@ -50,9 +50,9 @@
         />
       <div class="event-written-content">
         <div class="event-tag">
-          <span class="tag tag--commercial">Commercial</span>
+          <span class="tag tag--commercial">Social</span>
         </div>
-        <p class="card-title">Commercial Events</p>
+        <p class="card-title">Social Events</p>
         <ul class="event-attributes">
           <li class="event-attribute">
             <ion-icon class="event-icon" name="briefcase-outline"></ion-icon>
