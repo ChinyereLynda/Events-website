@@ -17,7 +17,7 @@
     {src: '/img/gallery/notes.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
     {src: '/img/gallery/outdoor.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 5},
     {src: '/img/gallery/wedding.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 6},
-    {src: '/img/gallery/outdoor.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
+    {src: '/img/gallery/room.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
     {src: '/img/gallery/dinnings.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 5},
     {src: '/img/gallery/corporate.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 6},
     {src: '/img/gallery/bar.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
