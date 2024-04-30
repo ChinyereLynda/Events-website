@@ -19,19 +19,19 @@
         <ul class="event-attributes">
           <li class="event-attribute">
             <ion-icon class="event-icon" name="briefcase-outline"></ion-icon>
-            <span>Professional</span>
+            <span>Conferences & Seminars</span>
           </li>
           <li class="event-attribute">
             <ion-icon class="event-icon" name="happy-outline"></ion-icon>
-            <span>Satisfactory</span>
+            <span>Meetings & Trainings</span>
           </li>
           <li class="event-attribute">
             <ion-icon class="event-icon" name="aperture-outline"></ion-icon>
-            <span>Lorem ipsum dolor</span>
+            <span>Fundraisers, Retreats & Parties</span>
           </li>
           <li class="event-attribute">
             <ion-icon class="event-icon" name="alarm-outline"></ion-icon>
-            <span>Lorem ipsum</span>
+            <span>Product Launch & Company Announcements<span>
           </li>
         </ul>
 
@@ -56,19 +56,19 @@
         <ul class="event-attributes">
           <li class="event-attribute">
             <ion-icon class="event-icon" name="briefcase-outline"></ion-icon>
-            <span>Professional</span>
+            <span>Engagement Parties</span>
           </li>
           <li class="event-attribute">
             <ion-icon class="event-icon" name="happy-outline"></ion-icon>
-            <span>Satisfactory</span>
+            <span>Birthdays Celebrations</span>
           </li>
           <li class="event-attribute">
             <ion-icon class="event-icon" name="aperture-outline"></ion-icon>
-            <span>Lorem ipsum dolor</span>
+            <span>Reunion & Family Gatherings</span>
           </li>
           <li class="event-attribute">
             <ion-icon class="event-icon" name="alarm-outline"></ion-icon>
-            <span>Lorem ipsum</span>
+            <span>Baby Showers & Gender Reveal</span>
           </li>
         </ul>
 
@@ -81,7 +81,7 @@
 
     <div class="events weddings">
       <img 
-        src="/img/wedding.jpg" 
+        src="/img/couple.jpeg" 
         class="events-img" 
         alt="wedding-events-img" 
         />
@@ -93,19 +93,19 @@
         <ul class="event-attributes">
           <li class="event-attribute">
             <ion-icon class="event-icon" name="briefcase-outline"></ion-icon>
-            <span>Professional</span>
-          </li>
-          <li class="event-attribute">
-            <ion-icon class="event-icon" name="happy-outline"></ion-icon>
-            <span>Satisfactory</span>
-          </li>
-          <li class="event-attribute">
-            <ion-icon class="event-icon" name="aperture-outline"></ion-icon>
-            <span>Lorem ipsum dolor</span>
+            <span>Ceremony & Reception Cordination</span>
           </li>
           <li class="event-attribute">
             <ion-icon class="event-icon" name="alarm-outline"></ion-icon>
-            <span>Lorem ipsum</span>
+            <span>Cathering & Menu Planning</span>
+          </li>
+          <li class="event-attribute">
+            <ion-icon class="event-icon" name="aperture-outline"></ion-icon>
+            <span>Vendor Cordination</span>
+          </li>
+          <li class="event-attribute">
+            <ion-icon class="event-icon" name="alarm-outline"></ion-icon>
+            <span>Budget Management</span>
           </li>
         </ul>
 

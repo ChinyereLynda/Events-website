@@ -11,16 +11,16 @@
   });
 
   const gallery = [
-		{src: '/img/gallery/corprt event.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 1},
-    {src: '/img/gallery/commerce.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 2},
-    {src: '/img/gallery/wedding.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 3},
-    {src: '/img/gallery/commerce.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
-    {src: '/img/gallery/corprt event.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 5},
+		{src: '/img/gallery/dinning.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 1},
+    {src: '/img/gallery/couple.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 2},
+    {src: '/img/gallery/weddings.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 3},
+    {src: '/img/gallery/notes.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
+    {src: '/img/gallery/outdoor.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 5},
     {src: '/img/gallery/wedding.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 6},
-    {src: '/img/gallery/commerce.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
-    {src: '/img/gallery/corprt event.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 5},
-    {src: '/img/gallery/wedding.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 6},
-    {src: '/img/gallery/commerce.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
+    {src: '/img/gallery/outdoor.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
+    {src: '/img/gallery/dinnings.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 5},
+    {src: '/img/gallery/corporate.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 6},
+    {src: '/img/gallery/bar.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
 	];
 
 </script>
@@ -29,7 +29,7 @@
   <div class="gallery-container">
       <div class="gallery-text-box">
           <h1 class="heading-primary">Gallery</h1>
-          <p class="gallery-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam nulla, non vero voluptatum blanditiis quis.</p>          
+          <p class="gallery-description">Pictures tells stories and every moment is a masterpiece. From striking landscapes to intimate portraits, our collection is a celebration of beauty in all its forms.</p>          
       </div>
 
       <div class="gallery-img-box">
@@ -53,11 +53,11 @@
       {/each}      
     </div>
 
-    <div class="gallery-btn">
+    <!-- <div class="gallery-btn">
       <a href="#">
         <Button type="primary" bigger={true} >Veiw Our Gallery</Button>
       </a>
-    </div>
+    </div> -->
 
   </div>
 </section>

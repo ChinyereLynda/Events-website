@@ -26,7 +26,7 @@ const tabChange = (e) => {
   <div class="services-container">
       <div class="services-text-box">
           <h1 class="heading-primary">Our Services</h1>
-          <p class="services-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam nulla.</p>          
+          <p class="services-description">Transform your dreams into unforgettable realities with our services. From corporate events, social gatherings to cleaning services, our dedicated team will craft your vision into an effortless and memorable event, partnering with top vendors to ensure that every detail exceeds your expectations.</p>          
       </div>
 
       <div class="services-img-box">
