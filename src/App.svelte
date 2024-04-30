@@ -9,7 +9,6 @@ import Footer from "./components/Footer.svelte";
 import Gallery from "./components/Gallery.svelte";
 import Contact from "./components/Contact.svelte";
 import Cta from "./components/Cta.svelte";
-import Cta1 from "./components/Cta1.svelte";
 import Testimonial from "./components/Testimonial.svelte";
 import CtaGallery from "./components/CtaGallery.svelte";
 import TermsAndConditions from "./components/TermsAndConditions.svelte";
