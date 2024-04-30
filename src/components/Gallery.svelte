@@ -33,7 +33,7 @@
       </div>
 
       <div class="gallery-img-box">
-        <img src="/img/image7.jpg" class="gallery-img" alt="gallery image"/>
+        <img src="/img/gallery/weddings.jpeg" class="gallery-img" alt="gallery image"/>
       </div>
   </div>
 

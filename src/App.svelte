@@ -9,6 +9,7 @@ import Footer from "./components/Footer.svelte";
 import Gallery from "./components/Gallery.svelte";
 import Contact from "./components/Contact.svelte";
 import Cta from "./components/Cta.svelte";
+import Cta1 from "./components/Cta1.svelte";
 import Testimonial from "./components/Testimonial.svelte";
 import CtaGallery from "./components/CtaGallery.svelte";
 import TermsAndConditions from "./components/TermsAndConditions.svelte";
@@ -84,12 +85,16 @@ const goToHome = () => {
 			{/if}
 
 			<!-- {#if activeComponent !== 'Contact'} -->
-			{#if activeComponent !== 'Contact' && activeComponent !== 'Terms'}
+			{#if activeComponent !== 'Contact' && activeComponent !== 'Terms' && activeComponent !== 'Our Services' && activeComponent !== 'Gallery' && activeComponent !== 'About'}
 			<CtaGallery />
 			<Testimonial />
 			<Cta on:ctaToContact={contactComponent} />			
 			{/if}
-			
+
+			<!-- {#if activeComponent !== 'Services'} -->
+			{#if activeComponent !== 'Contact' && activeComponent !== 'Terms' && activeComponent !== 'About' && activeComponent !== 'Home'}
+			<Cta on:ctaToContact={contactComponent} />			
+			{/if}
 </main>
 <!-- <Testimonial />
 <Cta on:ctaToContact={contactComponent} /> -->

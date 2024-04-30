@@ -30,7 +30,7 @@ const tabChange = (e) => {
       </div>
 
       <div class="services-img-box">
-        <img src="/img/image7.jpg" class="services-img" alt="services image"/>
+        <img src="/img/gallery/savvy.jpeg" class="services-img" alt="services image"/>
       </div>
   </div>
   <div class="services-tabs">

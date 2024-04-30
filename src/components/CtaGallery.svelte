@@ -8,9 +8,9 @@
       <div class="cta-gallery-text-box">
         <h2 class="cta-gallery-caption">Our Beautiful Gallery</h2>
         <div class="cta-gallery-button">
-          <a href="#">
-            <Button bigger={true} >View Our Gallery</Button>
-          </a>
+          
+            <Button bigger={true} on:click >View Our Gallery</Button>
+     
         </div>
       </div>
     </div>
