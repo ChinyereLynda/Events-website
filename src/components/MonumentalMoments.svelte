@@ -3,10 +3,10 @@
 
 
 const monumentalMoments = [
-		{src: '/img/gallery/corprt event.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 1},
-    {src: '/img/gallery/commerce.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 2},
-    {src: '/img/gallery/wedding.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 3},
-    {src: '/img/gallery/commerce.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
+		{src: '/img/gallery/ellavaldeztable.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 1},
+    {src: '/img/gallery/ellaoutdoors.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 2},
+    {src: '/img/gallery/ellavaldezpic.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 3},
+    {src: '/img/gallery/ellavaldezmeta.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
     {src: '/img/gallery/corprt event.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 5},
     {src: '/img/gallery/wedding.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 6},    
 	];
@@ -25,7 +25,7 @@ const monumentalMoments = [
 
     <div class="moments-text-box">
       <h3 class="moments-heading heading-tertiary">Our Memorable Events</h3>
-      <p class="moments-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, ut illo ducimus possimus doloribus error alias tempore, aut explicabo accusamus modi, iste nemo quaerat culpa. Illum blanditiis nesciunt commodi maxime! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rerum omnis aliquid, impedit dicta corporis neque esse nemo voluptatibus. </p>
+      <p class="moments-description">We're all about creating those moments you'll never forget. Whether it's a big corporate event or a cozy get-together with friends, our team is here to turn your ideas into something truly special. So, let's make some memories together that you'll be talking about for years to come!</p>
       <div class="moments-btn">
         <Button type="primary" inverse={true} on:click>Book Now</Button>
       </div>

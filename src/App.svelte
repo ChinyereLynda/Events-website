@@ -13,6 +13,11 @@ import Testimonial from "./components/Testimonial.svelte";
 import CtaGallery from "./components/CtaGallery.svelte";
 import TermsAndConditions from "./components/TermsAndConditions.svelte";
 
+
+// Define Open Graph metadata variables
+let ogTitle = "Ella Valdez - Dazzling Events, Sparkling Spaces";
+let ogImage = "/img/gallery/ellavaldezmeta.jpeg";
+
 let showMobileNav = false;
 const toggleMobilNavView = () => {
 	showMobileNav = !showMobileNav;
@@ -63,6 +68,13 @@ const goToHome = () => {
   </div>
 </Router> -->
 
+<head>
+  <!-- Open Graph metadata for the Home page -->
+  {#if activeComponent === 'Home'}
+    <meta property="og:title" content={ogTitle}>
+    <meta property="og:image" content={ogImage}>
+  {/if}
+</head>
 
 
 <MobileNavView on:changeComponent={changeComponent} on:goTo={contactComponent} {showMobileNav} on:click={toggleMobilNavView}/>

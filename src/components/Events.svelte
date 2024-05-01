@@ -44,7 +44,7 @@
 
     <div class="events">
       <img 
-        src="/img/commerce.jpg" 
+        src="/img/gallery/social.jpeg" 
         class="events-img" 
         alt="commercial-events-img" 
         />

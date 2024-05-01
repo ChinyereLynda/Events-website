@@ -3,9 +3,9 @@
 
   const testimonials = [
 		{author: 'Albert Eze', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Great job.', job: 'Senior Product Manager at EFG Company', id: 1},
-    {author: 'Kelvin Breeze', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Excellent', job: 'Manager at HIJ Company', id: 2},
-		{author: 'Brian Okwu', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Splendid', job: 'HR at KLM Company', id: 3},
-		{author: 'Elizabeth Maya', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Fantabulous', job: 'Project Coordinator at OPQ Company', id: 4},
+    {author: 'Dr Kelvin Mba', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Excellent', job: 'Manager at HIJ Company', id: 2},
+		{author: 'Mrs Brian Okwu', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Splendid', job: 'HR at KLM Company', id: 3},
+		{author: 'Mrs Elizabeth Maya', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Fantabulous', job: 'Project Coordinator at OPQ Company', id: 4},
 		{author: 'Drake Chew', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Nice one', job: 'Development Manager at RST Company', id: 5},
 	];
 
