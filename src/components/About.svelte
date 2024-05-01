@@ -19,7 +19,7 @@
       </div>
 
       <div class="about-img-box">
-        <img src="/img/image7.jpg" class="about-img" alt="about image"/>
+        <img src="/img/gallery/ellavaldezmeta.jpeg" class="about-img" alt="about image"/>
       </div>
   </div>
 
