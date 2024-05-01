@@ -18,20 +18,20 @@
         <p class="card-title">Corporate Events</p>
         <ul class="event-attributes">
           <li class="event-attribute">
-            <ion-icon class="event-icon" name="briefcase-outline"></ion-icon>
+            <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
             <span>Conferences & Seminars</span>
           </li>
           <li class="event-attribute">
-            <ion-icon class="event-icon" name="happy-outline"></ion-icon>
+            <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
             <span>Meetings & Trainings</span>
           </li>
           <li class="event-attribute">
-            <ion-icon class="event-icon" name="aperture-outline"></ion-icon>
+            <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
             <span>Fundraisers, Retreats & Parties</span>
           </li>
           <li class="event-attribute">
-            <ion-icon class="event-icon" name="alarm-outline"></ion-icon>
-            <span>Product Launch & Company Announcements<span>
+            <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
+            <span>Company Announcements e.t.c<span>
           </li>
         </ul>
 
@@ -44,7 +44,7 @@
 
     <div class="events">
       <img 
-        src="/img/gallery/social.jpeg" 
+        src="/img/social1.jpeg" 
         class="events-img" 
         alt="commercial-events-img" 
         />
@@ -55,19 +55,19 @@
         <p class="card-title">Social Events</p>
         <ul class="event-attributes">
           <li class="event-attribute">
-            <ion-icon class="event-icon" name="briefcase-outline"></ion-icon>
+            <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
             <span>Engagement Parties</span>
           </li>
           <li class="event-attribute">
-            <ion-icon class="event-icon" name="happy-outline"></ion-icon>
+            <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
             <span>Birthdays Celebrations</span>
           </li>
           <li class="event-attribute">
-            <ion-icon class="event-icon" name="aperture-outline"></ion-icon>
+            <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
             <span>Reunion & Family Gatherings</span>
           </li>
           <li class="event-attribute">
-            <ion-icon class="event-icon" name="alarm-outline"></ion-icon>
+            <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
             <span>Baby Showers & Gender Reveal</span>
           </li>
         </ul>
@@ -92,19 +92,19 @@
         <p class="card-title">Weddings</p>
         <ul class="event-attributes">
           <li class="event-attribute">
-            <ion-icon class="event-icon" name="briefcase-outline"></ion-icon>
+            <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
             <span>Ceremony & Reception Cordination</span>
           </li>
           <li class="event-attribute">
-            <ion-icon class="event-icon" name="alarm-outline"></ion-icon>
+            <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
             <span>Cathering & Menu Planning</span>
           </li>
           <li class="event-attribute">
-            <ion-icon class="event-icon" name="aperture-outline"></ion-icon>
+            <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
             <span>Vendor Cordination</span>
           </li>
           <li class="event-attribute">
-            <ion-icon class="event-icon" name="alarm-outline"></ion-icon>
+            <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
             <span>Budget Management</span>
           </li>
         </ul>
