@@ -37,7 +37,7 @@ const tabChange = (e) => {
         <!-- <p class="address">63 Lorem St., 2nd Floor, Ipso Lorem.</p> -->
         <p>
           <a class="social-link" href="tel:234 703 7386 459">+234 814 612 476</a><br />
-          <a class="social-link" href="mailto:chinyeremuonaka@gmail.com">info@ellavaldezltd.com</a>
+          <a class="social-link" href="mailto:info@ellavaldezltd.com">info@ellavaldezltd.com</a>
         </p>
       </address>
     </div>
