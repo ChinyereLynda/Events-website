@@ -9,7 +9,7 @@ const handleLogoClick = (e) => {
 </script>
 
 <div>
-  <img class="logo" src="/img/clientlogos/client4.png" alt="Company logo" on:click={handleLogoClick} />
+  <img class="logo" src="/img/clientlogos/client6.png" alt="Company logo" on:click={handleLogoClick} />
 </div>
 
 <style>

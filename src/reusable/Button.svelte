@@ -11,9 +11,14 @@ const handleBtnClick = (e) => {
   dispatch('goTo', btn);
 }
 
+const ctaToContact = (e) => {
+  const btn = e.target;
+  dispatch('ctaToContact', btn);
+}
+
 </script>
 
-<button class={type} class:bigger={bigger} class:inverse={inverse} on:click={handleBtnClick} on:click>
+<button class={type} class:bigger={bigger} class:inverse={inverse} on:click={handleBtnClick} on:click={ctaToContact} on:click >
   <slot></slot>
 </button>
 
@@ -23,34 +28,46 @@ const handleBtnClick = (e) => {
     cursor: pointer; 
     border-radius: 6px;
     padding: 0.8rem 1.2rem;
+    font-size: 1.6rem;
     font-weight: 600;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2)
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
   }
 
   .primary {
-    background: gold;
-    color: darkblue;
+    background: #fff;
+    color: #0C2D48;    
     transition: all 0.3s;
   }
 
   .primary:hover {
-    background: #e6c200;
+    background: #ced5da;
+    color: #0C2D48;
   }
 
   .secondary {
-    background: darkblue;
+    background: #fff;
+    color: #0C2D48;
+    transition: all 0.3s;
+  }
+
+  .secondary:hover {
+    background: #0C2D48;
     color: #fff;
   }
 
   .bigger {
     padding: 0.8rem 1.2rem;
-    font-size: 2.0rem;
+    font-size: 2.5rem;
   }
 
   .primary.inverse {
-    color: gold;
-    background: #00008b;
-    border: 0.2rem solid #ffd700;
+    color: #fff;
+    background: #0C2D48;
+  }
+
+  .primary.inverse:hover {
+    background: #ced5da;
+    color: #0C2D48;
   }
 
   .secondary.inverse {

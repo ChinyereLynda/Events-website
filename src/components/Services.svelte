@@ -1,44 +1,47 @@
 <script>
-
 import Tabs from '../reusable/Tabs.svelte';
+import Cleaning from './Cleaning.svelte';
 import Events from './Events.svelte';
+import MonumentalMoments from './MonumentalMoments.svelte';
+import { onMount } from 'svelte';
 
-let items = ['Events', 'Cleaning Services', 'Monumental Moments'];
+onMount(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  });
+
+let items = ['Events', 'Monumental Moments', 'Cleaning Services'];
 let activeItem = 'Events';
-const color = '#fff';
-const background = 'darkblue';
-const gap = '0';
-const border = '#fff solid 1px';
-const padding = '0.4rem 1.2rem';
-const borderRadius = '6px';
+let services = true;
 
 const tabChange = (e) => {
 	activeItem = e.detail;  
 }
-
-
 </script>
 
 <section class="section-services">
   <div class="services-container">
       <div class="services-text-box">
           <h1 class="heading-primary">Our Services</h1>
-          <p class="services-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam nulla, non vero voluptatum blanditiis quis, ex dolorem.</p>          
+          <p class="services-description">Transform your dreams into unforgettable realities with our services. From corporate events, social gatherings to cleaning services, our dedicated team will craft your vision into an effortless and memorable event, partnering with top vendors to ensure that every detail exceeds your expectations.</p>          
       </div>
 
       <div class="services-img-box">
-        <img src="/img/image1.jpg" class="services-img" alt="services image"/>
+        <img src="/img/gallery/savvy.jpeg" class="services-img" alt="services image"/>
       </div>
   </div>
   <div class="services-tabs">
-    <Tabs {borderRadius} {border} {padding} {gap} {color} {background} {items} {activeItem} on:tabChange={tabChange}/>
+    <Tabs {items} {activeItem} {services} on:tabChange={tabChange}/>
     
     {#if activeItem === 'Events'}
-      <Events />
-			{:else if activeItem === 'Cleaning Services'}
-			<p> Cleaning Services here!</p>
+      <Events on:click />		
 			{:else if activeItem === 'Monumental Moments'}
-			<p>Monumental Moments here!</p>
+			<MonumentalMoments on:click/>
+      {:else if activeItem === 'Cleaning Services'}
+      <Cleaning on:click />
 		{/if}
 
   </div>
@@ -54,8 +57,9 @@ const tabChange = (e) => {
     max-width: 70%;
     max-height: 70%;
     margin: 0 auto;
-    background: rgb(179, 179, 220, 0.8);
-    color: darkblue;
+    /* background: rgb(179, 179, 220, 0.8); */
+    background: rgba(207, 213, 217, 0.8);
+    color:  #0C2D48;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
@@ -71,11 +75,32 @@ const tabChange = (e) => {
   .services-img {
     width: 100%;
     max-height: 60vh;
+    object-fit: cover;
   }
 
   .services-tabs {
     margin: 0 auto;
     margin-top: 4.8rem;
   }
+
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 544px (Phones)*/
+/**************************************************/
+@media (max-width: 34em) {
+
+  .services-text-box {    
+    padding-top: 3.2rem;
+    padding-bottom: 2rem;
+  }
+  .heading-primary {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .services-description {
+    display: none;
+  }
+}
+  
     
 </style>
