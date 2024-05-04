@@ -24,11 +24,6 @@ const tabChange = (e) => {
         <li><a class="social-link" href="#top" target="_blank"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
         <li><a class="social-link" href="#top" target="_blank"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
       </ul>
-
-      <p> 
-      <a class="copyright"> Copyright &copy; Ella Valdez Ltd. All rights reserved </a> <br />
-      <a class="copyright" href="https://paschalogu.com" target="_blank"> Built with &hearts; by Paschal Ogu. </a> 
-      </p>
     </div>
 
     <div class="address-col">
@@ -47,18 +42,26 @@ const tabChange = (e) => {
       <Tabs {items} {activeItem} {footer} on:tabChange={tabChange} on:changeComponent />
     </nav>
   </div>
+
+  <div class="copyright-section">
+    <p class="copyright">
+      Copyright &copy; Ella Valdez Ltd. All Rights Reserved. <br/>
+      Built with ❤️ by <a href="https://paschalogu.com" target="_blank">Paschal Ogu</a>.
+    </p>
+  </div>
 </footer>
 
 <style>
   .footer {
+    position: relative;
     background-color: #e7eaed;
     padding: 6.4rem 0;
     border-top: 1px solid #eee;
   } 
 
-  /* .grid--footer {
+  .grid--footer {
     grid-template-columns: 2fr 1fr 1fr;
-  } */
+  }
 
   .logo-col {
     display: flex;
@@ -141,6 +144,24 @@ const tabChange = (e) => {
   .footer-heading {   
     margin-bottom: 1.8rem;
   }
+}
+/* Style the copyright section */
+.copyright-section {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center; /* Center the text horizontally */
+  background-color: #f8f8f8; /* Optional: Add background color */
+  /* z-index: 9999; Ensure it's above other content */
+  padding: 0, 0; /* Add padding for better visibility */
+}
+
+/* Style the copyright text */
+.copyright {
+  font-size: 14px;
+  color: #555;
+  margin: 0; /* Remove default margins */
 }
 
 

@@ -81,7 +81,7 @@
 
     <div class="events weddings">
       <img 
-        src="/img/couple.jpeg" 
+        src="/img/gallery/bridal.jpeg" 
         class="events-img" 
         alt="wedding-events-img" 
         />
@@ -93,19 +93,19 @@
         <ul class="event-attributes">
           <li class="event-attribute">
             <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
-            <span>Ceremony & Reception Cordination</span>
+            <span>Weddings</span>
           </li>
           <li class="event-attribute">
             <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
-            <span>Cathering & Menu Planning</span>
+            <span>Bachelorette/Bachelor Party</span>
           </li>
           <li class="event-attribute">
             <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
-            <span>Vendor Cordination</span>
+            <span>Bridal Showers</span>
           </li>
           <li class="event-attribute">
             <ion-icon class="event-icon" name="chevron-forward-outline"></ion-icon>
-            <span>Budget Management</span>
+            <span>After Party</span>
           </li>
         </ul>
 
