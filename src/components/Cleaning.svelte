@@ -1,5 +1,14 @@
 <script>
   import Button from "../reusable/Button.svelte";
+
+  const cleaningImages = [
+		{src: '/img/gallery/ellavaldeztable.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 1},
+    {src: '/img/gallery/ellaoutdoors.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 2},
+    {src: '/img/gallery/ellavaldezpic.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 3},
+    {src: '/img/gallery/ellavaldezmeta.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
+    // {src: '/img/gallery/corprt event.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 5},
+    // {src: '/img/gallery/wedding.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 6},    
+	];
 </script>
 
 <div class="cleaning-container">
@@ -12,9 +21,19 @@
       </div>
     </div>  
     
+    <!-- <div class="cleaning-img-box"> -->
+      <!-- <img src="/img/cleaning gloves.jpg" class="cleaning-image" alt="cleaning event"/> -->        
+    <!-- </div> -->
+
     <div class="cleaning-img-box">
-      <img src="/img/cleaning gloves.jpg" class="cleaning-image" alt="cleaning event"/>
+      {#each cleaningImages as cleanImg}
+      <figure class="cleaning-item">
+        <img src={cleanImg.src} class="cleaning-image" alt={cleanImg.alt}/>
+        <!-- <figcaption>{moment.figCaption}</figcaption> -->
+      </figure>
+      {/each}
     </div>
+      
     
   </div>
 </div>
@@ -44,15 +63,28 @@
     text-align: center;
   } */
 
-  .cleaning-img-box {
+  /* .cleaning-img-box {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  } */
+
+  /* .cleaning-image {
+    width: 60%;
+  } */
 
   .cleaning-image {
-    width: 60%;
+    display: block;
+    width: 100%;
   }
+
+  .cleaning-img-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.6rem;
+    padding: 1.6rem;
+  }
+
 
   
 

@@ -44,6 +44,10 @@ const goToHome = () => {
 	activeComponent = 'Home';
 }
 
+const goToGallery = () => {
+	activeComponent = 'Gallery';
+}
+
 // export let url = "";
 </script>
 
@@ -97,7 +101,7 @@ const goToHome = () => {
 
 			<!-- {#if activeComponent !== 'Contact'} -->
 			{#if activeComponent !== 'Contact' && activeComponent !== 'Terms' && activeComponent !== 'Our Services' && activeComponent !== 'Gallery' && activeComponent !== 'About'}
-			<CtaGallery />
+			<CtaGallery on:click={goToGallery}/>
 			<Testimonial />
 			<Cta on:ctaToContact={contactComponent} />			
 			{/if}

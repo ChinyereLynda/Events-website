@@ -51,7 +51,7 @@
       <div class="testimonial-box" id={testimonial.id} bind:this={testimonial[i]} style="transform:translateX(calc(100% * {i} + 2.4rem * {i}))">
         <img class="testimonial-img" src={testimonial.src} alt={testimonial.alt} />
         <blockquote class="testimonial">
-          <p class="testimonial-text">{testimonial.quote}"1Lorem ipsum dolor sit amet consectetur adipisicing elit. Et excepturi nihil perferendis deserunt error! Nemo quisquam ipsa qui praesentium eaque. Cum assumenda placeat ipsam saepe eligendi quidem."</p>
+          <p class="testimonial-text">{testimonial.quote}</p>
           <p class="testimonial-author">{testimonial.author}</p>
           <p class="testimonial-job">{testimonial.job}</p>
         </blockquote>

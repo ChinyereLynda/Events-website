@@ -2,7 +2,7 @@
   import CarouselTestimonial from "../reusable/CarouselTestimonial.svelte";
 
   const testimonials = [
-		{author: 'Albert Eze', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Great job.', job: 'Senior Product Manager at EFG Company', id: 1},
+		{author: 'Albert Eze', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Great job. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et excepturi nihil perferendis deserunt error! Nemo quisquam ipsa qui praesentium eaque. Cum assumenda placeat ipsam saepe eligendi quidem.', job: 'Senior Product Manager at EFG Company', id: 1},
     {author: 'Dr Kelvin Mba', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Excellent', job: 'Manager at HIJ Company', id: 2},
 		{author: 'Mrs Brian Okwu', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Splendid', job: 'HR at KLM Company', id: 3},
 		{author: 'Mrs Elizabeth Maya', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Fantabulous', job: 'Project Coordinator at OPQ Company', id: 4},
