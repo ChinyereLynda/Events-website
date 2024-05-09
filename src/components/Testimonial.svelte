@@ -2,11 +2,11 @@
   import CarouselTestimonial from "../reusable/CarouselTestimonial.svelte";
 
   const testimonials = [
-		{author: 'Albert Eze', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Great job. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et excepturi nihil perferendis deserunt error! Nemo quisquam ipsa qui praesentium eaque. Cum assumenda placeat ipsam saepe eligendi quidem.', job: 'Senior Product Manager at EFG Company', id: 1},
-    {author: 'Dr Kelvin Mba', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Excellent', job: 'Manager at HIJ Company', id: 2},
-		{author: 'Mrs Brian Okwu', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Splendid', job: 'HR at KLM Company', id: 3},
-		{author: 'Mrs Elizabeth Maya', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Fantabulous', job: 'Project Coordinator at OPQ Company', id: 4},
-		{author: 'Drake Chew', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'Nice one', job: 'Development Manager at RST Company', id: 5},
+		{author: 'Albert Eze', src: '/img/Testimonial1.jpg', alt: 'Testimonial Image', quote: 'The cleaning services provided by Ella Valdez Ltd were nothing short of extraordinary. Their attention to detail and commitment to leaving every inch of the venue spotless ensured that our event was a resounding success.', job: 'Senior Product Manager at JJ Company', id: 1},
+    {author: 'Dr Kelvin Mba', src: '/img/gallery/benj.jpeg', alt: 'Testimonial Image', quote: 'Efficient, professional, and exceptional service. Ella Valdez Ltd made our product launch event a success!', job: 'Manager at Chude & Sons Limited', id: 2},
+		{author: 'Mrs Brian Okwu', src: '/img/gallery/couplehide.jpeg', alt: 'Testimonial Image', quote: 'Planning a wedding from out of town can be stressful, but our event coordinator made it seamless and stress-free. Their attention to detail and dedication to making our vision a reality made all the difference.', job: 'HR at KLM Company', id: 3},
+		{author: 'James Ibidapo', src: '/img/gallery/jervel.jpeg', alt: 'Testimonial Image', quote: 'Our fund raising event was a hit, all thanks to Ella Valdez Ltd. They took care of everything, from logistics to decor and catering, with such finesse. Our guests were blown away, and we were showered with compliments. We could not be happier with the outcome!', job: '', id: 4},
+		{author: 'Mrs Elizabeth Maya', src: '/img/gallery/maho.jpeg', alt: 'Testimonial Image', quote: 'Hosting my sons birthday celebration with was an absolute delight! The decorations were stunning, the atmosphere was lively, and every detail was taken care of flawlessly. If you want your birthday to be unforgettable, Ella Valdez Ltd is the way to go!', job: '', id: 5},
 	];
 
 </script>
