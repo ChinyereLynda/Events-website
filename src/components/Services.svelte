@@ -13,7 +13,7 @@ onMount(() => {
     });
   });
 
-let items = ['Events', 'Monumental Moments', 'Cleaning Services'];
+let items = ['Events', 'Corporate Gifts', 'Cleaning Services'];
 let activeItem = 'Events';
 let services = true;
 
@@ -38,7 +38,7 @@ const tabChange = (e) => {
     
     {#if activeItem === 'Events'}
       <Events on:click />		
-			{:else if activeItem === 'Monumental Moments'}
+			{:else if activeItem === 'Corporate Gifts'}
 			<MonumentalMoments on:click/>
       {:else if activeItem === 'Cleaning Services'}
       <Cleaning on:click />

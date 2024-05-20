@@ -53,7 +53,6 @@
           </div>
 
 
-
           <label for="checkbox">Which of our services do you need?</label>
           <div class="checkbox-pack">
             <div class="checkbox-field">
@@ -72,13 +71,13 @@
             </div>
 
             <div class="checkbox-field">
-              <label for="cleaning">Cleaning Services</label>
-              <input type="checkbox" class="checkbox" value="Cleaning Services" id="cleaning" name="user_value4" />
+              <label for="mml">Corporate Gifts</label>
+              <input type="checkbox" class="checkbox" value=" Corporate Gift" id="gifts" name="user_value4" />
             </div>
 
             <div class="checkbox-field">
-              <label for="mml">Monumental Moments</label>
-              <input type="checkbox" class="checkbox" value="MML Services" id="mml" name="user_value5" />
+              <label for="cleaning">Cleaning Services</label>
+              <input type="checkbox" class="checkbox" value="Cleaning Services" id="cleaning" name="user_value5" />
             </div>
           </div>
 

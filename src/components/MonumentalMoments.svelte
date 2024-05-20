@@ -3,12 +3,12 @@
 
 
 const monumentalMoments = [
-		{src: '/img/gallery/ellavaldeztable.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 1},
-    {src: '/img/gallery/ellaoutdoors.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 2},
-    {src: '/img/gallery/ellavaldezpic.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 3},
-    {src: '/img/gallery/ellavaldezmeta.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
-    {src: '/img/gallery/corprt event.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 5},
-    {src: '/img/gallery/wedding.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 6},    
+		{src: '/img/gallery/corporate1.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 1},
+    {src: '/img/gallery/corporate3.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 2},
+    {src: '/img/gallery/corporate4.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 3},
+    {src: '/img/gallery/corporate2.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
+    {src: '/img/gallery/corporate.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 5},
+    {src: '/img/gallery/corporate5.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 6},    
 	];
 </script>
 
@@ -24,10 +24,10 @@ const monumentalMoments = [
     </div>
 
     <div class="moments-text-box">
-      <h3 class="moments-heading heading-tertiary">Our Memorable Events</h3>
-      <p class="moments-description">We're all about creating those moments you'll never forget. Whether it's a big corporate event or a cozy get-together with friends, our team is here to turn your ideas into something truly special. So, let's make some memories together that you'll be talking about for years to come!</p>
+      <h3 class="moments-heading heading-tertiary">Corporate Gifts</h3>
+      <p class="moments-description"> We provide a diverse collection of corporate gifts and souvenirs, each uniquely customized to complement your occasion, be it corporate, private, or social events.</p>
       <div class="moments-btn">
-        <Button type="primary" inverse={true} on:click>Book Now</Button>
+        <Button type="primary" inverse={true} on:click>Get In Touch</Button>
       </div>
     </div>      
   </div>
