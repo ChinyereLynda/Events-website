@@ -29,7 +29,7 @@
   <div class="gallery-container">
       <div class="gallery-text-box">
           <h1 class="heading-primary">Gallery</h1>
-          <p class="gallery-description">Pictures tells stories and every moment is a masterpiece. From striking landscapes to intimate portraits, our collection is a celebration of beauty in all its forms.</p>          
+          <p class="gallery-description">Pictures tell stories and every moment is a masterpiece. From striking event landscape to beautiful portraits, our collection is a celebration of event and tells its story.</p>          
       </div>
 
       <div class="gallery-img-box">
@@ -40,8 +40,8 @@
 
   <div class="moments-gallery container">
     <div class="moments-gallery-text-box">
-      <h3 class="heading-tertiary">Memorable Events</h3>
-      <p class="moments-gallery-description">Monumental Moment of Life is an online magazine dedicated to celebrating life's milestones, big and small. We believe every achievement, from reaching a quarter-century milestone to marking any anniversary, deserves recognition and commemoration. Our mission is to inspire our clients to embrace the joy of celebrating their monumental moments, whether it's a minor triumph or a major life event.<br> Join us in honoring the journey of life, one celebration at a time!</p>
+      <h3 class="heading-tertiary"></h3>
+      <p class="moments-gallery-description">Our mission is to inspire our clients to embrace the joy of celebrating their joyful moments, whether it&#39;s a minor triumph or a major life event. Join us in honoring the journey of life, one celebration at a time!</p>
     </div> 
     
     <div class="moments-gallery-box">

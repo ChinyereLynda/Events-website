@@ -1,4 +1,5 @@
-<script>
+<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer>
+
 import { Router, Link, Route } from "svelte-routing";
 import Home from "./components/Home.svelte";
 import Header from  "./components/Header.svelte";
@@ -110,6 +111,9 @@ const goToGallery = () => {
 			{#if activeComponent !== 'Contact' && activeComponent !== 'Terms' && activeComponent !== 'About' && activeComponent !== 'Home'}
 			<Cta on:ctaToContact={contactComponent} />			
 			{/if}
+
+			<!-- Add whatsapp chat widget -->
+			<div class="elfsight-app-58068322-163e-4765-bbf7-a46768681847" data-elfsight-app-lazy></div>
 </main>
 <!-- <Testimonial />
 <Cta on:ctaToContact={contactComponent} /> -->

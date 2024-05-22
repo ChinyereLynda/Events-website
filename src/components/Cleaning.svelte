@@ -4,7 +4,7 @@
   const cleaningImages = [
 		{src: '/img/gallery/clean2.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 1},
     {src: '/img/gallery/gloves.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 2},
-    {src: '/img/gallery/cleaning.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 3},
+    {src: '/img/gallery/cleaning1.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 3},
     {src: '/img/gallery/office.jpeg', alt: 'captured moments', figCaption: 'Our Event', id: 4},
     // {src: '/img/gallery/corprt event.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 5},
     // {src: '/img/gallery/wedding.jpg', alt: 'captured moments', figCaption: 'Our Event', id: 6},    

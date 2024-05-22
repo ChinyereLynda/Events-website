@@ -15,7 +15,7 @@
   <div class="about-container">
       <div class="about-text-box">
           <h1 class="heading-primary">About Us</h1>
-          <p class="about-description">We are an event planning management and cleaning services company committed to creating eventful moments while leaving a sparkling touch!</p>          
+          <p class="about-description">Our capabilities of event planning and cleaning service lie beyond the spectrum of extraordinary. We would like to believe that what makes us so great is our originality and our determination to ensure that not only are we pleased with our work but also you as our client.</p>          
       </div>
 
       <div class="about-img-box">
@@ -39,7 +39,7 @@
   </div>
 
   <div class="mission-container">
-    <div class="container grid grid--2-cols">
+    <div class="container grid grid--3-cols">
       <div class="vision-text-box">
         <h3 class="heading-tertiary">Our Vision</h3>
         <p class="vision-description">To be a market leading service provider company in the events management sector. </p>
@@ -50,7 +50,12 @@
         <p class="mission-description">Provide a quality valued services to the customers.
           Building a unique brand with integrity, elegance and professionalism.
           Making event as memorable and monumental.</p>
-      </div>      
+      </div>  
+      
+      <div class="mission-text-box">
+        <h3 class="heading-tertiary">Our Identity</h3>
+        <p class="mission-description">To deliver our services and to make it happen all at the customer’s request. Team talk. Teamwork with much delight.</p>
+      </div> 
       
     </div>
 
