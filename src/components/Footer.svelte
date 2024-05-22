@@ -20,9 +20,10 @@ const tabChange = (e) => {
         <Logo on:goToHome />
       </div>
       <ul class="social-links">
-        <li><a class="social-link" href="#top" target="_blank"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li>
-        <li><a class="social-link" href="#top" target="_blank"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
-        <li><a class="social-link" href="#top" target="_blank"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
+        <!-- <li><a class="social-link" href="#" target="_blank"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li> -->
+        <li><a class="social-link"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li>
+        <li><a class="social-link"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
+        <li><a class="social-link"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
       </ul>
     </div>
 
@@ -31,10 +32,17 @@ const tabChange = (e) => {
       <address class="contacts">
         <!-- <p class="address">63 Lorem St., 2nd Floor, Ipso Lorem.</p> -->
         <p>
-          <a class="social-link" href="tel:08141612476">+234 814 612 476</a><br />
-          <a class="social-link" href="mailto:info@ellavaldezltd.com">info@ellavaldezltd.com</a>
+          <a class="social-link" href="tel:07019977535">
+            <ion-icon name="call-outline"></ion-icon> +234 701 997 7535
+          </a><br/>
+          <a class="social-link" href="tel:08141612476">
+            <ion-icon name="logo-whatsapp"></ion-icon> +234 814 161 2476
+          </a><br/>
+          <a class="social-link" href="mailto:info@ellavaldezltd.com">
+            <ion-icon name="mail-outline"></ion-icon> info@ellavaldezltd.com
+          </a>
         </p>
-      </address>
+      </address> 
     </div>
 
     <nav class="nav-col">
