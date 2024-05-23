@@ -24,18 +24,18 @@
   </div>
 
   <div class="ceo-container">
-    <div class="about-ceo-container container">
-      <div class="ceo-img-box">
+    <!-- <div class="about-ceo-container container"> -->
+      <!-- <div class="ceo-img-box">
         <img src="/img/female image.jpg" class="ceo-image" alt="about event"/>
-      </div>
+      </div> -->
 
-      <div class="ceo-text-box">
+      <div class="ceo-text-box container">
         <h3 class="heading-tertiary">A Zeal for Professionalism</h3>
         <p class="ceo-description">Ella Valdez Limited is a multi-functional service company    incorporated in 2020. The company’s passion and commitment, combined with the experience of our dedicated team, can create a memorable experience for both individuals and companies.
           We are a team that is passionate in creating monumental moment of your events, and we work tirelessly to make sure of it. We take pride in delivering either large or small event services to our clients, and we believe that each individual service come to its own uniqueness and we endeavor to provide unparalleled services with an outstanding customer service. We also believe that a successful event is directly linked to the client and guest experience as well, therefore, we work collaboratively to ensure the service
           we provide is cohesive and even the smallest of detail can have a huge impact to the service rendered.</p>
       </div>      
-    </div>
+    <!-- </div> -->
   </div>
 
   <div class="mission-container">
