@@ -41,7 +41,7 @@
   <div class="moments-gallery container">
     <div class="moments-gallery-text-box">
       <h3 class="heading-tertiary"></h3>
-      <p class="moments-gallery-description">Our mission is to inspire our clients to embrace the joy of celebrating their joyful moments, whether it&#39;s a minor triumph or a major life event. Join us in honoring the journey of life, one celebration at a time!</p>
+      <p class="moments-gallery-description">Our mission is to inspire our clients to embrace the joy of celebrating their joyful moments, whether it&#39;s a minor triumph or a major life event. Let us be part in honoring the journey of your life, one celebration at a time!</p>
     </div> 
     
     <div class="moments-gallery-box">
