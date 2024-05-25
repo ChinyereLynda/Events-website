@@ -5,7 +5,7 @@
     {author: 'Ijeoma Ejiofor', quote: 'Hosting my son’s birthday celebration was an absolute delight! The decorations were stunning, the atmosphere was lively, and every detail was taken care of flawlessly. Thank you Ella Valdez Ltd for the event services. That is the way to go!', job: '', id: 1},
 		{author: 'Ogonna Kanu', quote: 'Efficient, professional, and exceptional service. Ella Valdez Ltd made our special event flawless!', job: 'Founder, Refuge Foundation', id: 2},
     {author: 'Anonymous', quote: 'The event coordinator and the team made our wedding planning seamless and stress-free. The attention to detail and dedication made our dream wedding come true. ', job: '', id: 3},
-		{author: 'Adenike Lawal', quote: 'All thanks to Ella Valdez Ltd for making our fund-raising event a success. The logistics were nothing short of Excellence.', job: '', id: 4},
+		{author: 'Adenike Lawal', quote: 'All thanks to Ella Valdez Ltd for making our fund-raising event a success. The logistics were nothing short of excellence.', job: '', id: 4},
 		{author: 'Chinelo Ugwumgbor', quote: 'The cleaning services provided by Ella Valdez Ltd were nothing short of extraordinary.', job: 'CEO, Divine Hair Empire and Beauty Spa', id: 5},
 	];
 

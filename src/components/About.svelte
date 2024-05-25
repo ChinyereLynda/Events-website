@@ -54,7 +54,7 @@
       
       <div class="mission-text-box">
         <h3 class="heading-tertiary">Our Identity</h3>
-        <p class="mission-description">To deliver our services and to make it happen all at the customer’s request. Team talk. Teamwork with much delight.</p>
+        <p class="mission-description">To deliver our services and to make it happen all at the customer’s request. Team talk and teamwork with much delight.</p>
       </div> 
       
     </div>
